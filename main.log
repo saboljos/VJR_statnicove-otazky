@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  12 DEC 2024 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  30 DEC 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,18 +721,18 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
  on input line 30.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <img/symbol_cvut_konturova_verze_cb.pdf, id=4, 126.78566pt x 96.54268pt>
 File: img/symbol_cvut_konturova_verze_cb.pdf Graphic file (type pdf)
 <use img/symbol_cvut_konturova_verze_cb.pdf>
-Package pdftex.def Info: img/symbol_cvut_konturova_verze_cb.pdf  used on input line 48.
+Package pdftex.def Info: img/symbol_cvut_konturova_verze_cb.pdf  used on input line 46.
 (pdftex.def)             Requested size: 227.62204pt x 173.3303pt.
  [1
 
@@ -827,66 +827,155 @@ Overfull \hbox (19.08537pt too wide) in paragraph at lines 1--1
 ]
 \openout2 = `kapitoly/chapter_09.aux'.
 
- (./kapitoly/chapter_09.tex) [12
+ (./kapitoly/chapter_09.tex
+Overfull \hbox (0.35771pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10.95 p^^Tredaj^^S^^P en-ergii elek-tron^^Wum v obale. Ten je uvoln^^Ten, vznik^^Sa vakance, kter^^Sa je op^^Tet kask^^Sadami
+ []
+
+[12
 
 
 
 ]
+Overfull \hbox (3.05193pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/n/10.95 Vlnov^^Se d^^Selky se po-hy-buj^^S^^P ^^Tr^^Sadov^^Te $\OML/cmm/m/it/10.95 ^^U << \OT1/cmr/m/n/10.95 10[]$ m, co^^Tz je v^^Syrazn^^Te m^^Sen^^Te ne^^Tz mezi-ato-mov^^Se vzd^^Salenosti
+ []
+
+[13]
+<img/interakce.JPG, id=60, 841.9455pt x 353.52075pt>
+File: img/interakce.JPG Graphic file (type jpg)
+<use img/interakce.JPG>
+Package pdftex.def Info: img/interakce.JPG  used on input line 72.
+(pdftex.def)             Requested size: 455.24408pt x 191.1465pt.
+<img/fotoefekt.JPG, id=61, 892.5345pt x 199.34476pt>
+File: img/fotoefekt.JPG Graphic file (type jpg)
+<use img/fotoefekt.JPG>
+Package pdftex.def Info: img/fotoefekt.JPG  used on input line 87.
+(pdftex.def)             Requested size: 455.24408pt x 101.67664pt.
+ [14 <./img/interakce.JPG>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+Missing character: There is no � in font cmr10!
+<img/Compton.JPG, id=68, 1079.232pt x 230.0595pt>
+File: img/Compton.JPG Graphic file (type jpg)
+<use img/Compton.JPG>
+Package pdftex.def Info: img/Compton.JPG  used on input line 104.
+(pdftex.def)             Requested size: 455.24408pt x 97.04207pt.
+[15 <./img/fotoefekt.JPG> <./img/Compton.JPG>]
+<img/pár.JPG, id=72, 575.14874pt x 177.66376pt>
+File: img/pár.JPG Graphic file (type jpg)
+<use img/pár.JPG>
+Package pdftex.def Info: img/pár.JPG  used on input line 119.
+(pdftex.def)             Requested size: 318.66946pt x 98.43918pt.
+ [16 <./img/pár.JPG>]
+<img/maly_detektor.JPG, id=76, 422.7795pt x 157.7895pt>
+File: img/maly_detektor.JPG Graphic file (type jpg)
+<use img/maly_detektor.JPG>
+Package pdftex.def Info: img/maly_detektor.JPG  used on input line 175.
+(pdftex.def)             Requested size: 318.66946pt x 118.94133pt.
+ [17 <./img/maly_detektor.JPG>]
+<img/velky_detektor.JPG, id=80, 253.54726pt x 141.52875pt>
+File: img/velky_detektor.JPG Graphic file (type jpg)
+<use img/velky_detektor.JPG>
+Package pdftex.def Info: img/velky_detektor.JPG  used on input line 185.
+(pdftex.def)             Requested size: 182.09485pt x 101.6501pt.
+<img/stredni_detektor.JPG, id=81, 441.44925pt x 192.11775pt>
+File: img/stredni_detektor.JPG Graphic file (type jpg)
+<use img/stredni_detektor.JPG>
+Package pdftex.def Info: img/stredni_detektor.JPG  used on input line 197.
+(pdftex.def)             Requested size: 318.66946pt x 138.68524pt.
+ [18 <./img/velky_detektor.JPG> <./img/stredni_detektor.JPG>]
+<img/vliv_materialu.JPG, id=85, 609.477pt x 174.05025pt>
+File: img/vliv_materialu.JPG Graphic file (type jpg)
+<use img/vliv_materialu.JPG>
+Package pdftex.def Info: img/vliv_materialu.JPG  used on input line 225.
+(pdftex.def)             Requested size: 409.71689pt x 117.00345pt.
+
+Overfull \hbox (4.82886pt too wide) in paragraph at lines 231--232
+\OT1/cmr/m/n/10.95 z^^Saznam v jed-notliv^^Sych en-er-get-ick^^Sych kan^^Salech. Pod 100 za-z-na-me-nan^^Sych ud^^Salost^^S^^P je t^^Treba uva^^Tzovat
+ []
+
+[19 <./img/vliv_materialu.JPG>]
+<img/scintilak.JPG, id=90, 501.67426pt x 388.45125pt>
+File: img/scintilak.JPG Graphic file (type jpg)
+<use img/scintilak.JPG>
+Package pdftex.def Info: img/scintilak.JPG  used on input line 261.
+(pdftex.def)             Requested size: 295.90587pt x 229.12497pt.
+ [20 <./img/scintilak.JPG>] [21]
+Overfull \hbox (16.54953pt too wide) in paragraph at lines 316--317
+\OT1/cmr/m/n/10.95 Jed-notliv^^Sym bin^^Wum za po-moci kali-bra^^Tcn^^S^^Pch z^^Sa^^Tri^^Tc^^Wu p^^Tri^^Trad^^S^^Pm konkr^^Setn^^S^^P en-ergii, p^^Tri^^Tcem^^Tz p^^Tredpokl^^Sad^^Sam
+ []
+
+<img/mrtva_doba.JPG, id=97, 720.89325pt x 308.95425pt>
+File: img/mrtva_doba.JPG Graphic file (type jpg)
+<use img/mrtva_doba.JPG>
+Package pdftex.def Info: img/mrtva_doba.JPG  used on input line 327.
+(pdftex.def)             Requested size: 364.19664pt x 156.0843pt.
+<img/detekcni_krivka.JPG, id=98, 646.8165pt x 386.6445pt>
+File: img/detekcni_krivka.JPG Graphic file (type jpg)
+<use img/detekcni_krivka.JPG>
+Package pdftex.def Info: img/detekcni_krivka.JPG  used on input line 335.
+(pdftex.def)             Requested size: 364.19664pt x 217.69939pt.
+[22 <./img/mrtva_doba.JPG>]) [23 <./img/detekcni_krivka.JPG>]
 \openout2 = `kapitoly/chapter_10.aux'.
 
- (./kapitoly/chapter_10.tex) [13
+ (./kapitoly/chapter_10.tex) [24
 
 
 
 ]
 \openout2 = `kapitoly/chapter_11.aux'.
 
- (./kapitoly/chapter_11.tex) [14
+ (./kapitoly/chapter_11.tex) [25
 
 
 
 ]
 \openout2 = `kapitoly/chapter_12.aux'.
 
- (./kapitoly/chapter_12.tex) [15
+ (./kapitoly/chapter_12.tex) [26
 
 
 
 ]
 \openout2 = `kapitoly/chapter_13.aux'.
 
- (./kapitoly/chapter_13.tex) [16
+ (./kapitoly/chapter_13.tex) [27
 
 
 
 ]
 \openout2 = `kapitoly/chapter_14.aux'.
 
- (./kapitoly/chapter_14.tex) [17
+ (./kapitoly/chapter_14.tex) [28
 
 
 
 ]
 \openout2 = `kapitoly/chapter_15.aux'.
 
- (./kapitoly/chapter_15.tex) [18
+ (./kapitoly/chapter_15.tex) [29
 
 
 
 ] (./main.aux (./none.aux) (./kapitoly/chapter_01.aux) (./kapitoly/chapter_02.aux) (./kapitoly/chapter_03.aux) (./kapitoly/chapter_04.aux) (./kapitoly/chapter_05.aux) (./kapitoly/chapter_06.aux) (./kapitoly/chapter_07.aux) (./kapitoly/chapter_08.aux) (./kapitoly/chapter_09.aux) (./kapitoly/chapter_10.aux) (./kapitoly/chapter_11.aux) (./kapitoly/chapter_12.aux) (./kapitoly/chapter_13.aux) (./kapitoly/chapter_14.aux) (./kapitoly/chapter_15.aux)) ) 
 Here is how much of TeX's memory you used:
- 30167 strings out of 476091
- 792160 string characters out of 5794082
- 1856330 words of memory out of 5000000
- 49982 multiletter control sequences out of 15000+600000
- 520606 words of font info for 63 fonts, out of 8000000 for 9000
+ 30263 strings out of 476091
+ 794124 string characters out of 5794082
+ 1865330 words of memory out of 5000000
+ 50063 multiletter control sequences out of 15000+600000
+ 522953 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,103p,770b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (18 pages, 89274 bytes).
+ 99i,8n,103p,783b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (29 pages, 833804 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 186 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
