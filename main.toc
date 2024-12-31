@@ -40,6 +40,10 @@
 \contentsline {subsection}{\numberline {11.2}Pracovní postup}{32}{}%
 \contentsline {subsection}{\numberline {11.3}Využití NAA}{33}{}%
 \contentsline {section}{\numberline {12}Měření neutronů aktivační metodou}{34}{}%
-\contentsline {section}{\numberline {13}Využití výzkumných reaktorů}{35}{}%
-\contentsline {section}{\numberline {14}Konstrukce a provoz výzkumných reaktorů}{36}{}%
-\contentsline {section}{\numberline {15}Bezpečnost výzkumných reaktorů}{37}{}%
+\contentsline {subsection}{\numberline {12.1}Aktivační měření s dozimetrickými foliemi}{34}{}%
+\contentsline {subsubsection}{\numberline {12.1.1}Měření účinných průřezů}{34}{}%
+\contentsline {subsubsection}{\numberline {12.1.2}Spektrometrie neutronových polí}{35}{}%
+\contentsline {subsubsection}{\numberline {12.1.3}Stanovení štěpných výtěžků}{35}{}%
+\contentsline {section}{\numberline {13}Využití výzkumných reaktorů}{36}{}%
+\contentsline {section}{\numberline {14}Konstrukce a provoz výzkumných reaktorů}{37}{}%
+\contentsline {section}{\numberline {15}Bezpečnost výzkumných reaktorů}{38}{}%
