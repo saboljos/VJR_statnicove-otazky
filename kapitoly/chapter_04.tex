@@ -1,2 +1,63 @@
 \section[Prostorové a energetické rozložení hustoty toku, spektrální indexy]{Prostorové a energetické rozložení hustoty toku neutronů v aktivní zóně reaktoru a spektrální indexy}
 
+Prostorové a energetické rozložení je popsáno v jiných otázkách. Tato otázka se bude týkat pouze spektrálních indexů.
+
+\subsection{Spektrální indexy}
+
+K charakterizaci energie neutronů v reaktoru se kromě reakčních rychlostí využívá i tzv. spektrálních indexů. \textbf{Spektrální index představuje podíl reakčních rychlostí pro různé materiály, reakce a energetické oblasti neutronů}. Základním a zároveň nejpoužívanějším spektrálním indexem v experimentální reaktorové fyzice (tady bych se hádal, to že se to praktikuje v rámci měření na VR-1 ještě neznamená, že jde o nejdůležitější index) je tzv. kadmiový poměr, který rozlišuje zastoupení kadmiových a subkadmiových neutronů. Kadmiový poměr se určuje na základě porovnání reakční rychlosti pro aktivační detektor v kadmiovém pokrytí a bez kadmiového pokrytí (ozařování musí probíhat za shodných podmínek), pak lze poměr vyjádřit vztahem:
+
+\begin{equation}
+    R_\text{cd} = \frac{RR}{RR_\text{cd}} = \frac{RR_\text{th} + RR_\text{e}}{\frac{1}{F_\text{cd}} \cdot RR_\text{e}}
+\end{equation}
+
+kde:
+
+\begin{itemize}%[noitemsep]
+    \item[$-$] $RR$ je odezva detektoru, respektive reakční rychlost pro spektrum neutronů v místě ozařování,
+    \item[$-$] $RR_\text{cd}$ je reakční rychlost pro neutrony, které projdou Cd pokrytým aktivačního detektoru,
+    \item[$-$] $RR_\text{th}$ je reakční rychlost pro tepelné neutrony,
+    \item[$-$] $RR_\text{e}$ je reakční rychlost pro epitermální neutrony,
+    \item[$-$] $F_\text{cd}$ je kadmiový korekční faktor, zohledňuje skutečnost, že kadmium absorbuje neutrony od epitermálního spektra (0,1 eV) do tzv. kadmiové hrany.
+\end{itemize}
+
+Další významné spektrální indexy se určují na základě ozařování aktivačních detektorů vyrobených z uranu, respektive jeho izotopů, nejlépe z čistého $^{235}\text{U}$ nebo $^{238}\text{U}$ a to jak holých, tak umístěných v kadmiovém pokrytí. Na základě porovnání reakčních rychlostí pro radiační záchyt neutronů $RR_{(n,\gamma)}$ a štěpení $RR_{(n,f)}$ se určují spektrální indexy charakterizované následujícími poměry:
+
+\[
+\delta_{28} = \frac{\text{štěpení v } ^{238}\text{U}}{\text{štěpení v } ^{235}\text{U}} 
+\]
+
+\[
+\delta_{25} = \frac{\text{epikadmiové štěpení v } ^{235}\text{U}}{\text{subkadmiové štěpení v } ^{235}\text{U}}
+\]
+
+\[
+\varrho_{28} = \frac{\text{epikadmiový záchyt v } ^{238}\text{U}}{\text{subkadmiový záchyt v } ^{238}\text{U}}
+\]
+
+\[
+\alpha_{28} = \frac{\text{záchyt v } ^{238}\text{U}}{\text{štěpení v } ^{238}\text{U}} 
+\]
+
+kde:
+
+\begin{itemize}%[noitemsep]
+    \item[$-$] $\delta_{28}$ je spektrální index charakterizující podíl štěpení v $^{238}\text{U}$ a $^{235}\text{U}$,
+    \item[$-$] $\delta_{25}$ je spektrální index charakterizující štěpení epitermálními a tepelnými neutrony v $^{235}\text{U}$,
+    \item[$-$] $\varrho_{28}$ je spektrální index charakterizující záchyt epitermálních a tepelných neutronů v $^{238}\text{U}$,
+    \item[$-$] $\alpha_{28}$ je spektrální index charakterizující záchyt a štěpení v $^{238}\text{U}$.
+\end{itemize}
+
+Tohle jsou spektrální indexy vyučované v rámci ERF, protože jsou měřitelné. Ale je možné je určit i na základě výpočtu (hlavně Serpent). Obecně bych spektrální indexy shrnul jako:
+
+\begin{itemize}%[noitemsep]
+    \item[$-$] podíl 2 odlišných reakčních rychlostí (štěpení, záchyt, absorbce) na jednom izotopu (např. pravděpodobnost transmutace na nějakém štěpném izotopu),
+    \item[$-$] podíl 2 stejných reakčních rychlostí na 2 odlišných izotopech (např. podíl štěpení na hlavním štěpném a štěpitelném izotopu v množivém reaktoru),
+    \item[$-$] podíl 2 stejných reakčních rychlostí na jednom izotopu, ale v odlišných energetických oblastech (např. podíl štěpení rychlými a tepelnými neutrony na hlavním štěpném izotopu),
+    \item[$-$] podobné poměry, ale s koncentracemi izotopů pro rovnovážný palivový cyklus, xenon vs. jod apod.,
+    \item[$-$] střední energie neutronů způsobující nějakou reakci (typicky štěpení).
+    \item[$-$] apod. 
+\end{itemize}
+
+Ve zkratce jde o poměry dvou hodnot, které jsou charakteristické volbou paliva, vyhořením, spektrem, výkonem atd. Rychlý reaktor bude mít jinou pravděpodobnost štěpení na $^{238}$U než tepelný reaktor, vodou moderovaný reaktor bude mít jinou energii štěpení než grafitem moderovaný reaktor, atd.
+
+Možná by se chtělo tomu ještě trochu pověnovat, něco bych mohl dát dohromady.

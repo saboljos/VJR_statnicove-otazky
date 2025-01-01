@@ -1,49 +1,77 @@
 \contentsline {section}{\numberline {1}Měření reaktivity}{5}{}%
-\contentsline {section}{\numberline {2}Měření rozložení hustoty toku}{6}{}%
-\contentsline {section}{\numberline {3}Kritický experiment}{7}{}%
-\contentsline {section}{\numberline {4}Prostorové a energetické rozložení hustoty toku, spektrální indexy}{8}{}%
-\contentsline {section}{\numberline {5}Měření kinetických parametrů}{9}{}%
-\contentsline {section}{\numberline {6}Režimy a provoz neutronových detektorů}{10}{}%
-\contentsline {section}{\numberline {7}Neutronové zdroje}{11}{}%
-\contentsline {section}{\numberline {8}Spektrometrie neutronů}{12}{}%
-\contentsline {section}{\numberline {9}Interakce gamma záření}{13}{}%
-\contentsline {subsection}{\numberline {9.1}Základní poznatky}{13}{}%
-\contentsline {subsubsection}{\numberline {9.1.1}Zdroje fotonů}{13}{}%
-\contentsline {subsubsection}{\numberline {9.1.2}Členění fotonů}{13}{}%
-\contentsline {subsection}{\numberline {9.2}Interakce gamma záření s látkou}{14}{}%
-\contentsline {subsubsection}{\numberline {9.2.1}Primární interakce}{14}{}%
-\contentsline {subsubsection}{\numberline {9.2.2}Druhotné efekty}{17}{}%
-\contentsline {subsection}{\numberline {9.3}Charakteristika gamma spektra}{18}{}%
-\contentsline {subsubsection}{\numberline {9.3.1}Tvar gamma spektra}{18}{}%
-\contentsline {subsubsection}{\numberline {9.3.2}Další efekty}{20}{}%
-\contentsline {subsubsection}{\numberline {9.3.3}Měření}{20}{}%
-\contentsline {subsection}{\numberline {9.4}Detektory gamma záření}{21}{}%
-\contentsline {subsubsection}{\numberline {9.4.1}Základní typy detektorů}{21}{}%
-\contentsline {subsubsection}{\numberline {9.4.2}Základní charakteristiky}{22}{}%
-\contentsline {subsubsection}{\numberline {9.4.3}Kalibrace detektorů}{23}{}%
-\contentsline {section}{\numberline {10}Aktivační měření, gama spektroskopie}{25}{}%
-\contentsline {subsection}{\numberline {10.1}Zdroje neutronů}{25}{}%
-\contentsline {subsubsection}{\numberline {10.1.1}Radionuklidové zdroje}{25}{}%
-\contentsline {subsubsection}{\numberline {10.1.2}Zbylé zdroje}{26}{}%
-\contentsline {subsubsection}{\numberline {10.1.3}Zdroje pro aktivační měření}{26}{}%
-\contentsline {subsection}{\numberline {10.2}Fyzikální principy aktivačních měření}{27}{}%
-\contentsline {subsubsection}{\numberline {10.2.1}Reakční rychlost}{27}{}%
-\contentsline {subsubsection}{\numberline {10.2.2}Generátorové rovnice}{28}{}%
-\contentsline {subsubsection}{\numberline {10.2.3}Aplikace filtrů}{29}{}%
-\contentsline {subsection}{\numberline {10.3}Využití gamma spektroskopie}{29}{}%
-\contentsline {section}{\numberline {11}Aktivační analýza}{30}{}%
-\contentsline {subsection}{\numberline {11.1}Základní dělení}{30}{}%
-\contentsline {subsubsection}{\numberline {11.1.1}Absolutní NAA}{30}{}%
-\contentsline {subsubsection}{\numberline {11.1.2}Porovnávací NAA}{31}{}%
-\contentsline {subsubsection}{\numberline {11.1.3}Metoda jednoho komparátoru}{31}{}%
-\contentsline {subsubsection}{\numberline {11.1.4}Metoda $k_0$ standardizace}{31}{}%
-\contentsline {subsection}{\numberline {11.2}Pracovní postup}{32}{}%
-\contentsline {subsection}{\numberline {11.3}Využití NAA}{33}{}%
-\contentsline {section}{\numberline {12}Měření neutronů aktivační metodou}{34}{}%
-\contentsline {subsection}{\numberline {12.1}Aktivační měření s dozimetrickými foliemi}{34}{}%
-\contentsline {subsubsection}{\numberline {12.1.1}Měření účinných průřezů}{34}{}%
-\contentsline {subsubsection}{\numberline {12.1.2}Spektrometrie neutronových polí}{35}{}%
-\contentsline {subsubsection}{\numberline {12.1.3}Stanovení štěpných výtěžků}{35}{}%
-\contentsline {section}{\numberline {13}Využití výzkumných reaktorů}{36}{}%
-\contentsline {section}{\numberline {14}Konstrukce a provoz výzkumných reaktorů}{37}{}%
-\contentsline {section}{\numberline {15}Bezpečnost výzkumných reaktorů}{38}{}%
+\contentsline {subsection}{\numberline {1.1}Reaktivita}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Metody měření reaktivity}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Rod-Drop a Source-Jerk -- okamžitý skok}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Rod-Drop a Source-Jerk -- integrálně}{7}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Násobení zdroje}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Kladná perioda}{8}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Využití reaktimetru}{9}{}%
+\contentsline {subsection}{\numberline {1.3}Stanovení charakteristiky absorpční tyče}{10}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Absorpční tyč}{10}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Kalibrační křivka tyče vycházející z poruchové teorie}{10}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Metoda inverzních četností}{11}{}%
+\contentsline {subsubsection}{\numberline {1.3.4}Metoda s reaktimetrem}{13}{}%
+\contentsline {section}{\numberline {2}Měření rozložení hustoty toku}{14}{}%
+\contentsline {subsection}{\numberline {2.1}Axilální rozložení hustoty toku neutronů}{14}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Rozložení dle difúzní teorie}{14}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Měření rozložení hustoty toku neutronů plynovými detektory}{16}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Měření rozložení hustoty toku neutronů samonapájecími detektory}{16}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Měření rozložení hustoty toku neutronů aktivačními detektory}{16}{}%
+\contentsline {subsection}{\numberline {2.2}Spektra neutronů v AZ reaktoru}{18}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Měření absolutní hustoty toku aktivačními detektory}{19}{}%
+\contentsline {section}{\numberline {3}Kritický experiment}{20}{}%
+\contentsline {subsection}{\numberline {3.1}Kritický stav}{20}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Metoda inverzní četnosti}{20}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Experimentální predikce kritického stavu}{21}{}%
+\contentsline {section}{\numberline {4}Prostorové a energetické rozložení hustoty toku, spektrální indexy}{23}{}%
+\contentsline {subsection}{\numberline {4.1}Spektrální indexy}{23}{}%
+\contentsline {section}{\numberline {5}Měření kinetických parametrů}{25}{}%
+\contentsline {subsection}{\numberline {5.1}Zpožděné neutrony}{25}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Vznik a vlastnosti zpožděných neutronů}{25}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Emise zpožděných neutronů}{27}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Stanovení poločasu rozpadu prekurzorů zpožděných neutronů}{28}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Určování množství štěpného materiálu}{29}{}%
+\contentsline {section}{\numberline {6}Režimy a provoz neutronových detektorů}{30}{}%
+\contentsline {section}{\numberline {7}Neutronové zdroje}{31}{}%
+\contentsline {section}{\numberline {8}Spektrometrie neutronů}{32}{}%
+\contentsline {section}{\numberline {9}Interakce gamma záření}{33}{}%
+\contentsline {subsection}{\numberline {9.1}Základní poznatky}{33}{}%
+\contentsline {subsubsection}{\numberline {9.1.1}Zdroje fotonů}{33}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}Členění fotonů}{33}{}%
+\contentsline {subsection}{\numberline {9.2}Interakce gamma záření s látkou}{34}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}Primární interakce}{34}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}Druhotné efekty}{37}{}%
+\contentsline {subsection}{\numberline {9.3}Charakteristika gamma spektra}{38}{}%
+\contentsline {subsubsection}{\numberline {9.3.1}Tvar gamma spektra}{38}{}%
+\contentsline {subsubsection}{\numberline {9.3.2}Další efekty}{40}{}%
+\contentsline {subsubsection}{\numberline {9.3.3}Měření}{40}{}%
+\contentsline {subsection}{\numberline {9.4}Detektory gamma záření}{41}{}%
+\contentsline {subsubsection}{\numberline {9.4.1}Základní typy detektorů}{41}{}%
+\contentsline {subsubsection}{\numberline {9.4.2}Základní charakteristiky}{42}{}%
+\contentsline {subsubsection}{\numberline {9.4.3}Kalibrace detektorů}{43}{}%
+\contentsline {section}{\numberline {10}Aktivační měření, gama spektroskopie}{45}{}%
+\contentsline {subsection}{\numberline {10.1}Zdroje neutronů}{45}{}%
+\contentsline {subsubsection}{\numberline {10.1.1}Radionuklidové zdroje}{45}{}%
+\contentsline {subsubsection}{\numberline {10.1.2}Zbylé zdroje}{46}{}%
+\contentsline {subsubsection}{\numberline {10.1.3}Zdroje pro aktivační měření}{46}{}%
+\contentsline {subsection}{\numberline {10.2}Fyzikální principy aktivačních měření}{47}{}%
+\contentsline {subsubsection}{\numberline {10.2.1}Reakční rychlost}{47}{}%
+\contentsline {subsubsection}{\numberline {10.2.2}Generátorové rovnice}{48}{}%
+\contentsline {subsubsection}{\numberline {10.2.3}Aplikace filtrů}{49}{}%
+\contentsline {subsection}{\numberline {10.3}Využití gamma spektroskopie}{49}{}%
+\contentsline {section}{\numberline {11}Aktivační analýza}{50}{}%
+\contentsline {subsection}{\numberline {11.1}Základní dělení}{50}{}%
+\contentsline {subsubsection}{\numberline {11.1.1}Absolutní NAA}{50}{}%
+\contentsline {subsubsection}{\numberline {11.1.2}Porovnávací NAA}{51}{}%
+\contentsline {subsubsection}{\numberline {11.1.3}Metoda jednoho komparátoru}{51}{}%
+\contentsline {subsubsection}{\numberline {11.1.4}Metoda $k_0$ standardizace}{51}{}%
+\contentsline {subsection}{\numberline {11.2}Pracovní postup}{52}{}%
+\contentsline {subsection}{\numberline {11.3}Využití NAA}{53}{}%
+\contentsline {section}{\numberline {12}Měření neutronů aktivační metodou}{54}{}%
+\contentsline {subsection}{\numberline {12.1}Aktivační měření s dozimetrickými foliemi}{54}{}%
+\contentsline {subsubsection}{\numberline {12.1.1}Měření účinných průřezů}{54}{}%
+\contentsline {subsubsection}{\numberline {12.1.2}Spektrometrie neutronových polí}{55}{}%
+\contentsline {subsubsection}{\numberline {12.1.3}Stanovení štěpných výtěžků}{55}{}%
+\contentsline {section}{\numberline {13}Využití výzkumných reaktorů}{56}{}%
+\contentsline {section}{\numberline {14}Konstrukce a provoz výzkumných reaktorů}{57}{}%
+\contentsline {section}{\numberline {15}Bezpečnost výzkumných reaktorů}{58}{}%
