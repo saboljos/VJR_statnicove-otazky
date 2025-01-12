@@ -1,5 +1,131 @@
 \section[Měření kinetických parametrů]{Kinetické parametry reaktoru, zpožděné neutrony, jejich vlastnosti, vliv na provoz reaktoru a určování jejich parametrů}
 
+\subsection{Kinetické parametry reaktoru}
+Kinetika rektoru zkoumá časové chování reaktoru se změnou vstupních parametrů, přičemž vstupními parametry primárně chápeme $k_\text{ef}$, který lze ovlivnit změnou geometrie, či materiálového složení. 
+
+K popisu kinetiky reaktoru lze využít transportní rovnici, resp. zjednodušenou difúzní rovnici $\rightarrow$ vede na komplikované soustavy, které nelze v obecném případě řešit analyticky (s projevem heterogenity systému).
+
+V praxi se využívají zjednodušené rovnice kinetiky, tzv. \textbf{Rovnice bodové kinetiky}, které zanedbávají změnu prostorového rozložení $\rightarrow$ nastane-li změna na vstupních parametrech (zvětší-li se reaktivita), tak změna výstupních parametrů (např. $\phi$) se ve všech místech změní stejnou měrou $\rightarrow$ výstupní parametry se tedy pouze škálují a průběh zůstává zachován. Kromě prostorové závislosti se zanedbává i energetické rozdělení $\rightarrow$ vede na 1G rovnice.
+
+V reálu to tak není, ale kupodivu dávají rovnice přijatelné výsledky.
+
+\subsection{Rovnice jednobodové kinetiky}
+Pro odvození se vychází z 1G difúzní rovnice (s konstantním $D$ a $\Sigma_a$). Po sérii úprav a zanedbání se dostáváme na tvar: (Odvození je popsáno jinde :D).
+
+Destrukční tvar rovnic:
+\begin{equation}
+  \boxed{
+  \dfrac{dN}{dt} = \dfrac{k_{\text{ef}}(1-\beta_{\text{ef}})-1}{\ell} N(t) + \sum_{i=1}^m \lambda_i C_i(t),
+  \label{rovnice_kinetiky_zpozdenky_1}}
+\end{equation}
+
+\begin{equation}
+  \boxed{
+  \dfrac{dC_i}{dt} = -\lambda_i C_i(t) + \dfrac{\beta_{\text{ef},i} k_{\text{ef}} N(t)}{\ell},
+  \label{rovnice_kinetiky_zpozdenky_2}}
+\end{equation}
+
+Produkční tvar rovnic:
+\begin{equation}
+  \boxed{
+  \dfrac{dN}{dt} = \dfrac{\rho - \beta_{\text{ef}}}{\Lambda} N(t) + \sum_{i=1}^m \lambda_i C_i(t),
+  \label{rovnice_kinetiky_zpozdenky_3}}
+\end{equation}
+
+\begin{equation}
+  \boxed{
+  \dfrac{dC_i}{dt} = -\lambda_i C_i(t) + \dfrac{\beta_{\text{ef},i}  N(t)}{\Lambda}.
+  \label{rovnice_kinetiky_zpozdenky_4}}
+\end{equation}
+
+\subsection{Kinetické parametry}
+K popisu rovnic jednobodové kinetiky bylo využito parametrů, které budou popsány níže.
+
+\textbf{Střední doba života neutronů} -  $\ell$ (s)
+
+\begin{equation}
+  \boxed{
+  \ell \equiv \dfrac{1}{v \Sigma_a} \dfrac{1}{1+L^2B_g^2}
+  \label{stredni_doba_zivota}}
+\end{equation}
+
+\begin{table}[H]
+\small
+\centering
+\caption{\small Střední doby života pro různé typy reaktorů.}
+\label{table_stredni_doby_zivota}
+\begin{tabular}{@{}rc@{}}
+\toprule
+\textbf{Typ systému} & $\ell$ (s)           \\ \midrule
+\textbf{FR}          & $10^{-7}$            \\
+\textbf{LWR}         & $10^{-5} - 10^{-4}$  \\
+\textbf{Grafit}      & $10^{-3}$            \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Efektivní střední doba života neutronů} -  $\ell^*$ (s) \\
+Tohle už bere do úvahy i zpožděnky a lze podle toho definovat další "efektivní" kinetické parametry
+\begin{equation}
+  \boxed{
+  \ell^* \equiv \ell(1-\beta) + \sum_i \beta_i \tau_i,
+  \label{efektivni_stredni_doba_zivota}}
+\end{equation}
+
+\textbf{Perioda reaktoru} - $T_e$ (s) \\
+Zadefinujeme si \textbf{periodu reaktoru} $T_e$ (s) jako dobu, za kterou se výkon v systému změní e-krát, pomocí vztahu:
+
+\begin{equation}
+  \boxed{
+  T_e \equiv \dfrac{\ell}{k_{\text{ef}} - 1}.
+  \label{perioda}}
+\end{equation}
+
+\textbf{Střední doba vzniku neutronů} - $\Lambda$ (s) \\
+Je definována jako průměrná doba mezi emisí neutronu v jednom štěpení a jeho absorbováním nebo způsobením dalšího štěpení. Nižší hodnota $\Lambda$ znamená rychlejší dynamickou odezvu reaktoru.
+\begin{equation}
+  \boxed{
+  \Lambda \equiv \dfrac{\ell}{k_{\text{ef}}}.
+  \label{stredni_doba_vzniku}}
+\end{equation}
+
+\textbf{Podíl zpožděných neutronů} - $\beta$ (-)
+
+\begin{equation}
+  \boxed{
+  \beta \equiv \dfrac{\nu_D}{\nu_T},
+  \label{zpozdenky}}
+\end{equation}
+
+kde:
+
+\begin{itemize}
+  \item $\nu_D$ (-) značí střední počet zpožděných neutronů vzniklých při jednom štěpení,
+  \item $\nu_T$ (-) značí střední počet všech vzniklých neutronů.
+\end{itemize}
+
+\begin{table}[h!]
+\centering
+\caption{Kinetické parametry různých izotopů.}
+\label{tab:kinetic_parameters}
+\begin{tabular}{ccccccc}
+\toprule
+\textbf{Izotop} & $\nu_p$ (n/štěpení) & $\nu_d$ (n/štěpení) & $\nu_\text{tot}$ (n/štěpení) & $\beta$ (-) & $\overline{T}_{1/2}$ (s) & $\overline{\lambda}$ (s$^{-1}$) \\ \midrule
+\textsuperscript{235}U & 2,416 & 0,0158 & 2,432 & 0,0065 & 9,022 & 0,077 \\ 
+\textsuperscript{233}U & 2,475 & 0,0066 & 2,482 & 0,0027 & 12,796 & 0,054 \\ 
+\textsuperscript{239}Pu & 2,868 & 0,0061 & 2,874 & 0,0021 & 10,672 & 0,065 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Efektivní podíl zpožděných neutronů} - $\beta_\text{ef}$ (-)\\
+Umělá hodnota, která koriguje energetický rozdíl ve skupinách, jelikož každá ze skupin má jiný vliv na štěpeni. Lze ji zavést pomocí vztahu:
+
+\begin{equation}
+  \beta_{\text{ef}} = \beta \cdot I,
+\end{equation}
+
+kde $I$ (-) značí tzv. \textbf{funkci vlivu} a závisí na konkrétním reaktoru. Říká, jak je snadné pro zpožděné neutrony štěpit, oproti okamžitým neutronům. Obecně se pohybuje okolo $\approx 1$, při bližším studiu lze napsat: FR $<1$ a LWR $>1$.\\
+
+
 \subsection{Zpožděné neutrony}
 
 Kinetika a dynamika jaderného reaktoru v průběhu jeho provozu (především při přechodových procesech) je do značné míry udávána zpožděnými neutrony. Znalost parametrů zpožděných neutronů je velmi významná nejen při návrhu, ale i vlastním provozu jaderných reaktorů. Zpožděné neutrony lze využít také jako analytický nástroj, pomocí něhož lze přesněji určit obohacení, respektive hmotnost štěpného materiálu.
@@ -27,9 +153,9 @@ Obecně lze zapsat vznik zpožděného neutronu následujícím předpisem:
 kde:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] $^A_Z\text{X}$ je produkt štěpení, jádro nazývané prekurzor neboli předchůdce mateřského jádra,
-    \item[$-$] $^{A}_{Z+1}\text{Y}$ je jádro nazývané emitor neboli mateřské jádro,
-    \item[$-$] $^{A-1}_{Z+1}\text{Y}$ je výsledné jádro.
+    \item $^A_Z\text{X}$ je produkt štěpení, jádro nazývané prekurzor neboli předchůdce mateřského jádra,
+    \item $^{A}_{Z+1}\text{Y}$ je jádro nazývané emitor neboli mateřské jádro,
+    \item $^{A-1}_{Z+1}\text{Y}$ je výsledné jádro.
 \end{itemize}
 
 Na Obrázku \ref{SNM} je znázorněno rozpadové schéma typického prekurzoru $^{87}\text{Br}$. Izotop $^{87}\text{Br}$ hraje významnou roli v případě odstavení jaderného reaktoru, kdy odezní vliv okamžitých a krátkodobě žijících zpožděných neutronů. V tomto případě je populace neutronů v AZ určována především rozpadem $^{87}\text{Br}$. Jak vyplývá z obrázku, přibližně 30~\% jader $^{87}\text{Br}$ přechází rozpadem $\beta^-$ na $^{87}\text{Kr}$, který se nachází v základním stavu, zatímco 70~\% jader přechází rozpadem $\beta^-$ na $^{87}\text{Kr}$ ve vzbuzeném stavu ($^{87}\text{Kr}^*$). Z těchto 70~\% přechází přibližně 20~\% jader $^{87}\text{Kr}^*$ izomerickým přechodem do základního stavu. Zbýlá jádra ($^{87}\text{Kr}^*$) se dostávají do základního stavu přímou emisí neutronu. Tím vzniká zpožděný neutron. Prekurzorem je tedy $^{87}\text{Br}$, který opět rozpadem $\beta^-$ přechází na již stabilní $^{87}\text{Sr}$. Zpožděný neutron není emitován přímo jádrem $^{87}\text{Br}$, ale dceřiným produktem ve vzbuzeném stavu ($^{87}\text{Kr}^*$).
@@ -74,11 +200,11 @@ Emise zpožděných neutronů je spojena se vznikem a aktivitou jejich jednotliv
 kde:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] $N_i$ je počet mateřských jader zpožděných neutronů $i$-tého druhu,
-    \item[$-$] $Y_C$ je kumulativní výtěžek mateřských jader zpožděných neutronů ze štěpení,
-    \item[$-$] $\Sigma_f$ je reakční rychlost pro štěpení,
-    \item[$-$] $\Phi$ je hustota toku neutronů,
-    \item[$-$] $\lambda_i$ je rozpadová konstanta mateřských jader zpožděných neutronů.
+    \item $N_i$ je počet mateřských jader zpožděných neutronů $i$-tého druhu,
+    \item $Y_C$ je kumulativní výtěžek mateřských jader zpožděných neutronů ze štěpení,
+    \item $\Sigma_f$ je reakční rychlost pro štěpení,
+    \item $\Phi$ je hustota toku neutronů,
+    \item $\lambda_i$ je rozpadová konstanta mateřských jader zpožděných neutronů.
 \end{itemize}
 
 Pro jednoduchost je zanedbán záchyt neutronů mateřskými jádry zpožděných neutronů. Tuto rovnici lze jednoduše řešit pro $N_i$ jako funkci času ozařování:
@@ -113,7 +239,7 @@ Je-li doba ozařování dostatečně dlouhá ($t_\text{irr} \gg \tau_i$), přech
 
 \subsubsection{Stanovení poločasu rozpadu prekurzorů zpožděných neutronů}
 
-V případě, že bychom chtěli určit parametry jednotlivých skupin zpožděných neutronů a celkovou emisi rozdělit na individuální rozpadové křivky, je nutné aplikovat na analyzovaná data metody nelineární regrese. Takováto úloha není jednoduchá a pro její řešení jsou běžně používány sofistikované softwarové nástroje pro analýzu dat. Nicméně úloha se výrazně zjednoduší, pokud se bude jednat o hledání parametrů pouze jedné exponenciální funkce. Toho lze dosáhnout, pokud si uvědomíme, že platí $\lambda_1 \ll \lambda_2 \ll \dots \ll \lambda_6$ a $e^{-\lambda_1 t} \gg e^{-\lambda_2 t} \gg \dots \gg e^{-\lambda_6 t}$. Po dostatečně dlouhé době, která vede k rozpadu předchozích skupin zpožděných neutronů, můžeme vztah aproximovat pouze jednou exponenciální funkcí odpovídající nejdéle žijící skupině zpožděných neutronů:
+V případě, že bychom chtěli určit parametry jednotlivých skupin zpožděných neutronů a celkovou emisi rozdělit na individuální rozpadové křivky, je nutné aplikovat na analyzovaná data metody \textbf{nelineární regrese}. Takováto úloha není jednoduchá a pro její řešení jsou běžně používány sofistikované softwarové nástroje pro analýzu dat. Nicméně úloha se výrazně zjednoduší, pokud se bude jednat o hledání parametrů pouze jedné exponenciální funkce. Toho lze dosáhnout, pokud si uvědomíme, že platí $\lambda_1 \ll \lambda_2 \ll \dots \ll \lambda_6$ a $e^{-\lambda_1 t} \gg e^{-\lambda_2 t} \gg \dots \gg e^{-\lambda_6 t}$. Po dostatečně dlouhé době, která vede k rozpadu předchozích skupin zpožděných neutronů, můžeme vztah aproximovat pouze jednou exponenciální funkcí odpovídající nejdéle žijící skupině zpožděných neutronů:
 
 \[
 N_{DN}(t) = a_1 \cdot e^{-\lambda_1 t}
@@ -134,6 +260,13 @@ N_{DN}(t) - a_1 \cdot e^{-\lambda_1 t}
 Tento rozdíl pak představuje četnost emise pro zbývající skupiny zpožděných neutronů (2 až 6), z něhož můžeme na základě výše popsané úvahy určit parametry zpožděných neutronů druhé skupiny ($a_2$ a $\lambda_2$). Tímto způsobem bychom pokračovali až k určení parametrů skupiny zpožděných neutronů s nejkratší dobou života ($a_6$ a $\lambda_6$).
 
 Problém nastane u krátkodobých skupin (5 a 6), jelikož jejich poločas rozpadu je tak malý, že než dojde k měření, tak se většina prekurzorů rozpadne.
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/ZpožděnéNautrony2.png}
+    \caption{Měření zpožděných neutronů.}
+    \label{fig:MěřeníZpožděnek}
+\end{figure}
 
 \subsubsection{Určování množství štěpného materiálu}
 
@@ -162,3 +295,10 @@ m_X = m_{ST} \cdot \frac{N_X - N_\text{BG}}{N_{ST}-N_\text{BG}}.
 \end{equation}
 
 Přesnější výslednou hodnotu $m_X$ neznámého vzorku získáme, pokud použijeme více než jeden standard se štěpným materiálem. V takovém případě je vhodné vynést do grafu závislost celkového počtu zpožděných neutronů na množství štěpného materiálu, proložit data vhodnou křivkou a získat její rovnici. Z rovnice lze pak určit neznámé množství štěpného materiálu ve zkoumaném vzorku. Nicméně je důležité, aby se všemi vzorky bylo nakládáno za stejných experimentálních podmínek (hustota toku neutronů, doba ozařování, doba transportu vzorku a doba detekce) a kromě toho musí mít vzorky podobnou geometrii.
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/ZpožděnéNeutrony3.png}
+    \caption{Stanovení množství štěpného materiálu.}
+    \label{fig:ŠtěpnýMateriál}
+\end{figure}

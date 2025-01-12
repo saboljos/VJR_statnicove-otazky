@@ -11,18 +11,18 @@ Kritický stav jaderného reaktoru je označení stavu reaktoru, ve kterém je p
 Přiblížení ke kritickému stavu lze provést různými způsoby v závislosti na konstrukčním řešení jaderného reaktoru. Nejčastěji se na jaderných reaktorech uvažuje vysouvání nebo zasouvání absorpčních tyčí, nebo změna koncentrace absorbátoru v chladivu (kyseliny borité H$_3$BO$_3$). Na výzkumných reaktorech se lze setkat i s dalšími způsoby, mezi něž se řadí:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] přidávání nebo odebírání štěpného materiálu, tj. změna množství štěpného materiálu (viz regulace na EDU),
-    \item[$-$] změna úrovně vodní hladiny, tj. změna množství moderátoru (případně změnit rychlost průtoku, čímž se změní teplota a hustota moderátoru, viz BWR reaktory),
-    \item[$-$] přibližování nebo oddalování reflektoru.
+    \item přidávání nebo odebírání štěpného materiálu, tj. změna množství štěpného materiálu (viz regulace na EDU),
+    \item změna úrovně vodní hladiny, tj. změna množství moderátoru (myslím, že to umí i LR0; případně změnit rychlost průtoku, čímž se změní teplota a hustota moderátoru, viz BWR reaktory),
+    \item přibližování nebo oddalování reflektoru (výzkumný reaktor v SSSR nebo nějaké vesmírné reaktory).
 \end{itemize}
 
-Kritického stavu reaktoru je dosahováno při každém uvádění reaktoru do provozu. Změna výkonu je také v podstatě krátkodobým odchýlením od kritického stavu a jeho opětovným dosažením. Tento postup se ale vždy odehrává na známém uspořádání AZ. Pokud se spouští reaktor po změnách konfigurace AZ nebo úplně poprvé, je dosažení kritického stavu spojeno vždy s jistým prvkem neurčitosti. Ani zkušenost operátorů a kontrolních fyziků, ani precizní fyzikální výpočty nemohou zaručit přesné určení kritické velikosti AZ, poloh absorpčních tyčí nebo přesného množství absorbátoru při kritickém stavu reaktoru. Proto se na většině reaktorových provozů provádí tzv. \textbf{kritický experiment}, který k minimalizaci neurčitostí při dosažení prvního kritického stavu využívá jak výsledky neutronově-fyzikálních výpočtů, tak i měření v průběhu experimentu. V případě reaktoru VR-1 se jedná o jeden z nejnáročnějších experimentů, proto je jeho provedení zohledněno mimo jiné i v limitech a podmínkách.
+Kritického stavu reaktoru je dosahováno při každém uvádění reaktoru do provozu. Změna výkonu je také v podstatě krátkodobým odchýlením od kritického stavu a jeho opětovným dosažením. Tento postup se ale vždy odehrává na známém uspořádání AZ. Pokud se spouští reaktor po změnách konfigurace AZ nebo úplně poprvé, je dosažení kritického stavu spojeno vždy s jistým prvkem neurčitosti. Ani zkušenost operátorů a kontrolních fyziků, ani precizní fyzikální výpočty nemohou zaručit přesné určení kritické velikosti AZ, poloh absorpčních tyčí nebo přesného množství absorbátoru při kritickém stavu reaktoru. Proto se na většině reaktorových provozů provádí tzv. \textbf{kritický experiment}, který k minimalizaci neurčitostí při dosažení prvního kritického stavu využívá jak výsledky neutronově-fyzikálních výpočtů, tak i měření v průběhu experimentu. V případě reaktoru VR-1 se jedná o jeden z nejnáročnějších experimentů, proto je jeho provedení zohledněno mimo jiné i v limitech a podmínkách. 
 
 %Přiblížení ke kritickému stavu lze provést různými způsoby v závislosti na konstrukčním řešení jaderného reaktoru. Nejčastěji se na jaderných reaktorech k tomuto účelu používá vysouvání nebo zasouvání absorpčních tyčí, nebo změna koncentrace absorbátoru v chladivu, tj. změnu množství absorbátoru v AZ.
 
 \subsubsection{Metoda inverzní četnosti}
 
-Pokud bychom byli schopni měřit koeficient podkritického násobení $M$, lze kritický stav reaktoru predikovat z převrácené hodnoty $M$, respektive její závislosti na parametru $x$ (množství paliva, poloha absorpčních tyčí nebo množství moderátoru), který ovlivňuje hodnotu $k_\text{ef}$. Ze závislosti podílu $1/M$ na parametru $x$ můžeme pomocí extrapolace zjistit, pro jakou hodnotu $x$ bude podíl $1/M$ roven nule a v tomto bodě můžeme očekávat kritický stav reaktoru.
+Pokud bychom byli schopni měřit koeficient podkritického násobení $M$, lze kritický stav reaktoru predikovat z převrácené hodnoty $M$, respektive její závislosti na parametru $x$ (množství paliva, poloha absorpčních tyčí nebo množství moderátoru), který ovlivňuje hodnotu $k_\text{ef}$. Ze závislosti podílu $1/M$ na parametru $x$ můžeme pomocí extrapolace zjistit, pro jakou hodnotu $x$ bude podíl $1/M$ \textbf{roven nule a v tomto bodě můžeme očekávat kritický stav reaktoru}.
 
 \begin{equation*}
     \lim_{m \to \infty} S \cdot \frac{1 - k_\text{ef}^m}{1 - k_\text{ef}} = \frac{S}{1 - k_\text{ef}} \rightarrow M = \frac{S}{S \cdot (1 - k_\text{ef})} = \frac{1}{1 - k_\text{ef}} \rightarrow \frac{1}{M} = 1 - k_\text{ef}
@@ -42,7 +42,7 @@ Z poměru hustot toku neutronů ve výchozím a aktuálním stavu lze s určitou
     \frac{\phi_0}{\phi_i} = \frac{S}{1 - k_{\text{ef},0}} \cdot \frac{1 - k_{\text{ef},i}}{S} = \frac{1 - k_{\text{ef},i}}{1 - k_{\text{ef},0}}= C \cdot (1-k_{\text{ef},i}),
 \end{equation*}
 
-kde $C=\dfrac{1}{1-k_\text{ef,0}}$ je konstanta.
+kde $C=\dfrac{1}{1-k_\text{ef,0}}$ je nějaká konstanta pro výchozí stav (je úplně jedno, že ji neznáme).
 
 Hustota toku neutronů je úměrná naměřeným četnostem (CR$_0$ a CR$_i$) získaným z detektorů, pak lze psát:
 
@@ -54,17 +54,21 @@ Tedy pro kritický stav ($k_{\text{ef},\text{krit}} = 1$) musí platit $\frac{CR
 
 \subsubsection{Experimentální predikce kritického stavu}
 
-Ve výchozím stavu $x_0$ ($k_{\text{ef},0}$ < 1) určíme počáteční četnost CR$_0$. Je logické, že první hodnota charakterizující inverzní četnost je rovna jedné. Po naměření je tyč posunuta do polohy $x_1$ a opět určen poměr CR$_0$/CR$_1$. Obě hodnoty jsou vyneseny do grafu závislosti CR$_0$/CR$_i$ na poloze $x_i$.
+Ve výchozím stavu $x_0$ ($k_{\text{ef},0} <$  1) určíme počáteční četnost CR$_0$. Je logické, že první hodnota charakterizující inverzní četnost je rovna jedné. Po naměření je tyč posunuta do polohy $x_1$ a opět určen poměr CR$_0$/CR$_1$. Obě hodnoty jsou vyneseny do grafu závislosti CR$_0$/CR$_i$ na poloze $x_i$.
 
-Extrapolací je zjištěn první odhad kritického stavu. Regulační tyč je poté vysouvána z AZ po krocích délky odpovídající vztahu:
+Extrapolací těchto dvou bodů je zjištěn první odhad kritického stavu ($x_i^\text{E}$). Regulační tyč je poté vysouvána z AZ po krocích délky odpovídající vztahu: (vztah mi říká jak moc mám v dalším kroku tyč vysunout)
 
-\begin{equation}
+\begin{equation} \label{eq:KS}
     x_{i+1} =x_i+\frac{1}{2} \cdot \{\text{min}(x_\text{E},x_\text{V}) - x_i\},
 \end{equation}
 
-kde hodnota 1/2 je volena z čistě konzervativních důvodů, $x_\text{E}$ značí experimentálně určenou polohu regulační tyče a $x_\text{V}$ značí polohu kritického stavu určenou výpočetním programem.
+kde hodnota 1/2 je volena z čistě konzervativních důvodů, $x_\text{E}$ značí experimentálně určenou polohu regulační tyče vždy ze dvou posledních bodů a $x_\text{V}$ značí polohu \textbf{kritického stavu} určenou výpočetním programem.
 
 Tato iterace je prováděna do té doby, dokud se hodnota CR$_0$/CR$_i$ $\approx 0,2$. Poté se reaktor nachází v blízkosti kritického stavu a opětovnou extrapolací poslední 2-3 hodnot lze určit předpokládanou polohu regulační tyče pro kritický stav.
+
+Významnou roli hraje vzdálenost neutronového zdroje od detektoru, vzdálenost detektoru od místa, v němž je měněn (ovlivňován) koeficient násobení
+a samozřejmě způsob, jakým závisí změna koeficientu násobení na změně proměnného
+parametru $x_i$.
 
 \begin{figure}[H] 
     \centering
@@ -75,4 +79,10 @@ Tato iterace je prováděna do té doby, dokud se hodnota CR$_0$/CR$_i$ $\approx
 
 Vtipný je, že tenhle jednoduchý a old-style způsob se skutečně využívá i na velkých reaktorech (ne jenom VR-1), pouze to nedělají ručně, ale mají na to prográmek (on stačí Excel). Kamarád byl na stáži na elektrárně, kde ho nechali to samé rýsovat na milimetrový papír a nezávisle ho kontrolovali vlastním prográmkem, a to bylo v rámci skutečného najíždění nové vsázky.
 
-Přidat něco o postupu na VR-1 + legislativa.
+\subsection{Kritický experiment na VR-1}
+V rámci předmětu 17KEX, při němž se sestavuje "nová" AZ se po sestavení základní vsázky postupuje následovně:
+\begin{itemize}
+    \item Přidá se další PČ a provádí se měření reaktivity v DKP a HKP (dokud to jde, aby reaktor nebyl kritický) s využitím SNM detektorů ve 3 různých pozicích a PMV kanálů. Všechny výsledky se srovnávají s numericky vypočtenými hodnotami a kontroluje se jejich shoda. 
+    \item Po složení celé AZ se postupně vytahují bezpečnostní, experimentální a jedna regulační tyč do HKP (v každém kroku se provádí měření).
+    \item Nakonec se vytahuje (BÚNO R2) po krocích dané rovnicí \eqref{eq:KS} a dosahuje se KS.
+\end{itemize}

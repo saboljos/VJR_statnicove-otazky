@@ -13,11 +13,11 @@ K charakterizaci energie neutronů v reaktoru se kromě reakčních rychlostí v
 kde:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] $RR$ je odezva detektoru, respektive reakční rychlost pro spektrum neutronů v místě ozařování,
-    \item[$-$] $RR_\text{cd}$ je reakční rychlost pro neutrony, které projdou Cd pokrytým aktivačního detektoru,
-    \item[$-$] $RR_\text{th}$ je reakční rychlost pro tepelné neutrony,
-    \item[$-$] $RR_\text{e}$ je reakční rychlost pro epitermální neutrony,
-    \item[$-$] $F_\text{cd}$ je kadmiový korekční faktor, zohledňuje skutečnost, že kadmium absorbuje neutrony od epitermálního spektra (0,1 eV) do tzv. kadmiové hrany.
+    \item $RR$ je odezva detektoru, respektive reakční rychlost pro spektrum neutronů v místě ozařování,
+    \item $RR_\text{cd}$ je reakční rychlost pro neutrony, které projdou Cd pokrytým aktivačního detektoru,
+    \item $RR_\text{th}$ je reakční rychlost pro tepelné neutrony,
+    \item $RR_\text{e}$ je reakční rychlost pro epitermální neutrony,
+    \item $F_\text{cd}$ je kadmiový korekční faktor, zohledňuje skutečnost, že kadmium absorbuje neutrony od epitermálního spektra (0,1 eV) do tzv. kadmiové hrany ($\approx$ 0,3 eV).
 \end{itemize}
 
 Další významné spektrální indexy se určují na základě ozařování aktivačních detektorů vyrobených z uranu, respektive jeho izotopů, nejlépe z čistého $^{235}\text{U}$ nebo $^{238}\text{U}$ a to jak holých, tak umístěných v kadmiovém pokrytí. Na základě porovnání reakčních rychlostí pro radiační záchyt neutronů $RR_{(n,\gamma)}$ a štěpení $RR_{(n,f)}$ se určují spektrální indexy charakterizované následujícími poměry:
@@ -41,23 +41,158 @@ Další významné spektrální indexy se určují na základě ozařování akt
 kde:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] $\delta_{28}$ je spektrální index charakterizující podíl štěpení v $^{238}\text{U}$ a $^{235}\text{U}$,
-    \item[$-$] $\delta_{25}$ je spektrální index charakterizující štěpení epitermálními a tepelnými neutrony v $^{235}\text{U}$,
-    \item[$-$] $\varrho_{28}$ je spektrální index charakterizující záchyt epitermálních a tepelných neutronů v $^{238}\text{U}$,
-    \item[$-$] $\alpha_{28}$ je spektrální index charakterizující záchyt a štěpení v $^{238}\text{U}$.
+    \item $\delta_{28}$ je spektrální index charakterizující podíl štěpení v $^{238}\text{U}$ a $^{235}\text{U}$,
+    \item $\delta_{25}$ je spektrální index charakterizující štěpení epitermálními a tepelnými neutrony v $^{235}\text{U}$,
+    \item $\varrho_{28}$ je spektrální index charakterizující záchyt epitermálních a tepelných neutronů v $^{238}\text{U}$,
+    \item $\alpha_{28}$ je spektrální index charakterizující záchyt a štěpení v $^{238}\text{U}$.
 \end{itemize}
 
 Tohle jsou spektrální indexy vyučované v rámci ERF, protože jsou měřitelné. Ale je možné je určit i na základě výpočtu (hlavně Serpent). Obecně bych spektrální indexy shrnul jako:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] podíl 2 odlišných reakčních rychlostí (štěpení, záchyt, absorbce) na jednom izotopu (např. pravděpodobnost transmutace na nějakém štěpném izotopu),
-    \item[$-$] podíl 2 stejných reakčních rychlostí na 2 odlišných izotopech (např. podíl štěpení na hlavním štěpném a štěpitelném izotopu v množivém reaktoru),
-    \item[$-$] podíl 2 stejných reakčních rychlostí na jednom izotopu, ale v odlišných energetických oblastech (např. podíl štěpení rychlými a tepelnými neutrony na hlavním štěpném izotopu),
-    \item[$-$] podobné poměry, ale s koncentracemi izotopů pro rovnovážný palivový cyklus, xenon vs. jod apod.,
-    \item[$-$] střední energie neutronů způsobující nějakou reakci (typicky štěpení).
-    \item[$-$] apod. 
+    \item podíl 2 odlišných reakčních rychlostí (štěpení, záchyt, absorbce) na jednom izotopu (např. pravděpodobnost transmutace na nějakém štěpném izotopu),
+    \item podíl 2 stejných reakčních rychlostí na 2 odlišných izotopech (např. podíl štěpení na hlavním štěpném a štěpitelném izotopu v množivém reaktoru),
+    \item podíl 2 stejných reakčních rychlostí na jednom izotopu, ale v odlišných energetických oblastech (např. podíl štěpení rychlými a tepelnými neutrony na hlavním štěpném izotopu),
+    \item podobné poměry, ale s koncentracemi izotopů pro rovnovážný palivový cyklus, xenon vs. jod apod.,
+    \item střední energie neutronů způsobující nějakou reakci (typicky štěpení).
+    \item apod. 
 \end{itemize}
 
 Ve zkratce jde o poměry dvou hodnot, které jsou charakteristické volbou paliva, vyhořením, spektrem, výkonem atd. Rychlý reaktor bude mít jinou pravděpodobnost štěpení na $^{238}$U než tepelný reaktor, vodou moderovaný reaktor bude mít jinou energii štěpení než grafitem moderovaný reaktor, atd.
 
-Možná by se chtělo tomu ještě trochu pověnovat, něco bych mohl dát dohromady.
+\subsubsection{Měření}
+Tepelné neutrony lze poměrně dobře detekovat pomocí aktivačních fólii (např. ze zlata). Pro rychlé energie lze využit překryv fólie kadmiem nebo využít jiné aktivační detektory. Pro tyto účely se dělají fólie z ochuzeného uranu ($^{238}$U), kdy záchytem neutronu vzniká $^{239}$U, které se rozpadá $\gamma$ na $^{239}$Np. 
+
+\begin{equation}
+    ^{238}_{92}\mathrm{U} + n \longrightarrow ^{239}_{92}\mathrm{U} \xrightarrow{\beta^- ; \, T_{1/2} = 23.45 \, \mathrm{m}} ^{239}_{93}\mathrm{Np}
+\end{equation}
+
+Účinný průřez pro štěpení $^{238}\mathrm{U}$ dosahuje výrazně nižších hodnot takřka v celém svém průběhu ($\sigma < 1 \cdot 10^{-30} \, \mathrm{m}^2$). 
+Má však významný nárůst v oblasti rychlých neutronů, přibližně od $E_n = 0.5 \, \mathrm{MeV}$ začíná hodnota účinného průřezu stoupat až na hodnoty $\sigma \sim 1 \cdot 10^{-28} \, \mathrm{m}^2$.
+K určení hodnoty reakční rychlosti pro štěpení $RR_{(n,f)}$ je nutné mít k dispozici tabulkové hodnoty výtěžků štěpení.
+Pro každý produkt štěpení je pak určena tato reakční rychlost vztahem:
+
+\begin{equation}
+RR_{(n,f)}(A,Z) = \frac{RR(A,Z)}{\frac{Y_f(A,Z)}{2}} \tag{17.30}
+\end{equation}
+
+kde:
+\begin{itemize}
+    \item $RR(A,Z)$ – je reakční rychlost pro produkt $(A,Z)$ ze štěpení,
+    \item $Y_f(A,Z)$ – je kumulativní výtěžek produktu $(A,Z)$ ze štěpení.
+\end{itemize}
+
+Hodnota $Y_f$ je dělená dvěma, jelikož při každém štěpení vznikají dva štěpné produkty a hodnota sumy $\Sigma_{(A,Z)} Y_f(A,Z)$ je normalizována na 2.
+Hodnoty $Y_f$ lze získat z databáze JANIS, kde jsou uváděny pro efektivní energie neutronů $0.025 \, \mathrm{eV}$, $400 \, \mathrm{keV}$, $14 \, \mathrm{MeV}$.
+Konečná hodnota $RR_{(n,f)}$ se získá jako vážený průměr přes všechny identifikované produkty štěpení.
+
+\subsubsection{Protokol na spektrální indexy}
+\textbf{Reakční rychlost}\\
+Obecně lze reakční rychlost stanovit podle vzorce \ref{RR}.
+\begin{equation} \label{RR}
+   RR = \frac{S(E_{\gamma})\cdot \lambda \cdot \frac{t_{\text{real}}}{t_{\text{live}}}}{N_0 \cdot (1-e^{-\lambda t_{\text{a}}}) \cdot e^{-\lambda t_{\text{v}}} \cdot (1-e^{-\lambda t_{\text{real}}}) \cdot \varepsilon_\text{eff}(E_{\gamma}) \cdot I_{\gamma}(E_{\gamma})},
+\end{equation}
+kde jednotlivé členy vyjadřují:
+\begin{itemize}
+    \item  $S(E_{\gamma})$ je plocha pod peakem příslušné energie,
+    \item  $\lambda$ je rozpadová konstanta pro $^{198}$Au,
+    \item  $t_\text{real}$ je skutečný  čas měření v HPGe detektoru a $t_\text{live}$ je čas měřeni zohledňující mrtvou dobu, 
+    \item  $N_0$ udává počet jader v ozařovaném vzorku \footnote{$N_0$ se určí ze znalosti hmotnosti vzorku, jako $N_0 = \frac{m \cdot N_A}{M}$},
+    \item  $t_\text{a}$ resp. $t_\text{v}$ udává čas ozařování v reaktoru resp. od konce ozařování do spuštění detektoru,
+    \item  $\varepsilon(E_{\gamma})$ značí detekční účinnost pro příslušnou energii,
+    \item  $I_{\gamma}(E_{\gamma})$ udává intenzitu gama linky příslušné energie.
+\end{itemize}
+
+Reakční rychlost pro sub-kadmiové neutrony se určí podle vztahu \eqref{RRth}.
+\begin{equation} \label{RRth}
+    RR_\text{sub} = RR - RR_\text{Cd},
+\end{equation}
+kde RR značí reakční rychlost pro holou aktivační fólii a $RR_\text{Cd}$ pro fólii v kadmiovém pouzdře.
+
+
+Lze definovat různé typy reakčních rychlostí:
+
+\begin{itemize}
+    \item  RR$_\text{(n,$\gamma$)}$ je reakční rychlost pro radiační záchyt neutronu na jádře $^{238}$U,
+    \item  RR(A,Z) je reakční rychlost pro produkt (A,Z) ze štěpení, 
+    \item  RR$_\text{(n,f)}$(A,Z) je reakční  rychlost štěpení pro produkt (A,Z) ze štěpení:
+    \begin{equation} \label{RR(n,f)(A,Z)}
+       RR_\text{(n,f)}(A,Z) = \frac{RR(A,Z)}{\frac{Y_\text{f}(A,Z)}{2}},
+    \end{equation}
+    kde $Y_\text{f}(A,Z)$ je kumulativní výtěžek produktu (A,Z) ze štěpení, který se liší pro různé produkty. (Viz. Tab. \ref{výtěžek})
+    
+    \item  RR(n,f) je výsledná reakční rychlost ze štěpení stanovená jako vážený průměr z RR(n,f)(A,Z).
+\end{itemize}
+
+\begin{table}[H]
+\centering
+\caption{Hodnoty kumulativních výtěžků ze štěpení pro štěpné produkty.}
+\label{výtěžek}
+\begin{tabular}{@{}lc@{}}
+\toprule
+Produkt    & Y$_\text{f}$ (-) \\ \midrule
+$^{138}$Xe & 0,057        \\
+$^{141}$Ba & 0,053        \\
+$^{138}$Cs & 0,058        \\ \bottomrule
+\end{tabular}
+\end{table}
+
+Pro korekci reakčních rychlostí na efekt samostínění lze využít vztah \eqref{k}.
+\begin{equation} \label{k}
+    k = \frac{\mu_\text{m}\cdot d \cdot \rho}{1-\exp(-\mu_\text{m}\cdot d \cdot \rho)},
+\end{equation}
+kde $\mu_\text{m}$ je lineární součinitel zeslabení, d je šířka fólie a $\rho$ je hustota fólie.
+
+Parametry aktivační fólie z ochuzeného uranu (0.3 wt.\% $^{235}$U) jsou zobrazeny v~Tab.~\ref{folie} 
+
+\begin{table}[h]
+\centering
+\caption{Parametry aktivační fólie}
+\label{folie}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Parametr            & Hodnota \\ \midrule
+$d$ (cm)            & 0,028   \\
+$\rho$ (g/cm$^3$)   & 19,01   \\
+$m_\text{holá}$ (g) & 0,7807  \\
+$m_\text{Cd}$ (g)   & 0,7080  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+Pro rozpad izotopu u kterého bylo pozorováno více $\gamma$-linek, kterým odpovídají dané reakční rychlosti RR$_{\gamma_i}$ se výsledná reakční rychlost získá jako součet reakčních rychlostí vážený přes neurčitosti ploch $\sigma_{\gamma_i}$. (Viz. \eqref{vážení})
+
+\begin{equation} \label{vážení}
+    RR(A,Z) = \frac{\sum_i^n\frac{RR_{\gamma_i}}{\sigma_{\gamma_i}^2}}{\sum_i^n\frac{1}{\sigma_{\gamma_i}^2}}.
+\end{equation}
+
+
+\textbf{Postup měření a vypracování} \\
+Nejprve byly připraveny fólie z ochuzeného uranu, přičemž jedna byla holá a druhá umístěna do kadmiového pouzdra pro odstínění tepelných neutronů. Vzorky byly umístěny na držák a vloženy do pozice E4 do středu AZ, kde byly ozařovány při výkonu 4E7 po dobu 15 minut. 
+
+Po vyndání byly vzorky kontrolně proměřeny, ale nebyly zjištěny vyšší hodnoty radioaktivního záření. Vzorky byly přemístěny do spektrometrické laboratoře, kde byly postupně vkládány do HPGe detektoru.  
+
+Z měření na HPGe detektoru se ukázalo, že pozice 80 mm (vzdálenost vzorek-detektor) poskytuje nejlepší statistiku a malou mrtvou dobu a proto byla tato pozice vybrána pro stanovení spektrálních indexů. V této pozici byly provedeny 2 měření s fólií, co byla ozařována jako holá a 2 měření s fólií ozařovanou v Cd pouzdře.
+
+Byly identifikovány $\gamma$-linky odpovídající rozpadu $^{239}$U, který vzniká radiačním záchytem neutronů na $^{238}$U a rozpadá s poločasem rozpadu T$_\text{1/2} = 23,45$ min na $^{239}$Np. Dále byly identifikovány linky od štěpných produktů $^{138}$Xe, $^{141}$Ba a $^{138}$Cs, pro které lze předpokládat, že  jsou primárně důsledkem štěpení epitermálními neutrony na $^{238}$U.
+
+Ze vzorce \eqref{RR} byly určeny reakční rychlosti odpovídající daným $\gamma$-linkám pro obě fólie, tyto reakční rychlosti byly opraveny na samostínění podle rovnice \eqref{k}.
+
+Pokud daný izotop obsahoval více $\gamma$-peaků byly tyto reakční rychlosti RR$_{\gamma_i}$ zprůměrovány přes vážení chyby určení plochy pod peakem podle vzorce \eqref{vážení} a získány hodnoty RR(A,Z). Tyto hodnoty byly korigovány podle rovnice \eqref{RR(n,f)(A,Z)} a tím byly určeny hodnoty pro RR$_\text{(n,f)}$(A,Z). Průměrem těchto reakčních rychlostí lze poté určit celkovou reakční rychlost pro štěpení RR$_\text{(n,f)}$.
+
+Dále byly stanoveny celkové reakční rychlosti pro štěpení jako vážený průměr. 
+
+Ze získaných reakčních rychlostí (Tab. \ref{gg}) lze stanovit hodnoty spektrálních indexů $\rho_\text{28}$ a $\alpha_\text{28}$. V~Tab. \ref{spekindexy} jsou uvedeny hodnoty spektrálních indexů $\rho_\text{28}$ (určený z rozpadu $^{239}$U) a $\alpha_\text{28}$ určený z poměru reakčních rychlostí pro záchyt pro fólii bez kadmia a štěpení pro fólii s kadmiem. 
+
+\textbf{Diskuze a závěr}\\
+V rámci měření byl analyzován vzorek ozářeného ochuzeného uranu. Z provedených analýz získaných $\gamma$-spekter byly určeny reakční rychlosti pro reakci (n,$\gamma$) z rozpadu $^{239}$U. (Viz. Tab.~\ref{ngamma})
+
+Z rozpadů vybraných štěpných produktů ($^{138}$Xe, $^{141}$Ba, $^{138}$Cs) byly stanoveny reakční rychlosti  RR(A,Z), RR$_\text{(n,f)}$(A,Z) a RR$_\text{(n,f)}$. (Viz. Tab. \ref{all})
+
+Z poměrem příslušných reakčních rychlostí byly určeny spektrální indexy. (Viz. Tab \ref{spekindexy})
+
+Spektrální indexy \boldmath$\rho_\text{28} = 2,04$. Tento index vyjadřuje, že záchyt epikadimových neutronů v dané pozici AZ je 2,04 krát větší než pro subkadmiové neutrony. Tento index by bylo možné určit i z následného rozpadu $^\text{239}$Np, aby reakční rychlosti by bylo nutné korigovat přes exponenciální rozpadový zákon.
+
+Spektrální index $\alpha_\text{28} = 8,85$ vyjadřuje, že záchyt neutronů v dané pozici AZ je 8,85 krát větší než štěpení, což by odpovídalo i mnohonásobně většímu mikroskopickému účinnému průřezu pro záchyt než pro štěpení tepelných neutronů na $^\text{238}$U.  
+
+Pro přesnější výsledky by bylo nutné analyzovat více produktů štěpení a případně po delší dobu sbírat  $\gamma$-spektra na HPGe detektoru.
+

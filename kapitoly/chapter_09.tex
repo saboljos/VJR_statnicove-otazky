@@ -4,14 +4,14 @@
 
 \subsubsection{Zdroje fotonů}
 
-Hlavním zdrojem gamma fotonů je RA rozpad částic (primárně $\beta$, pro vyšší $Z$ i $\alpha$). Nově vzniklá jádra jsou nestabilní a energie se zbavují za pomoci vyzáření gamma fotonu o specifické energii a intenzitě. Tato energie je charakteristická pro daný izotop, a ačkoliv je gamma foton vyzářen nově vzniklým jádrem, v tabulkách se připisuje k původnímu nestabilnímu jádru (např. $^{90}$Sr se rozpadá na $^{90}$Y, gamma foton vyzáří $^{90}$Y, ale v tabulkách ho najdu u $^{90}$Sr). Tento proces je velmi rychlý (většinou do $10^{-12}$ s), pokud k němu dojde za delší dobu, tak se vzniklé izotopy označují jako \textbf{metastabilní stavy}.
+Hlavním zdrojem gamma fotonů je RA rozpad částic (primárně $\beta$, pro vyšší $Z$ i $\alpha$). Nově vzniklá jádra jsou často ve vzbuzeném energetickém stavu a do základního stavu se vracejí vyzáření gamma fotonu o specifické energii a intenzitě. Tato energie je charakteristická pro daný izotop, a ačkoliv je gamma foton vyzářen nově vzniklým jádrem, v tabulkách se připisuje k původnímu nestabilnímu jádru (např. $^{90}$Sr se rozpadá na $^{90}$Y, gamma foton vyzáří $^{90}$Y, ale v tabulkách ho najdu u $^{90}$Sr). Tento proces je velmi rychlý (většinou do $10^{-12}$ s), pokud k němu dojde za delší dobu, tak se vzniklé izotopy označují jako \textbf{metastabilní stavy}.
 
 Mimo to jsou s produkcí gamma fotonů spojeny další procesy související s RA rozpady:
 
 \begin{itemize}
     \item $\beta^+$ rozpad -- vzniká pozitron, který je ihned zastaven v látce. Najde kamaráda elektron, čímž vzniká \textbf{pozitronium} (neboli krátce žijící vazba pozitronu a elektronu), anihiluje a vznikají 2 fotony o energii 511 keV jdoucí od sebe pod úhlem 180° (mohou vzniknout i 3 fotony, viz níže), tzv. \textbf{anihilační záření}. Jelikož před anihilací nezastaví pozitron uplně na nulu, je vzniklý peak rozmazaný.
-    \item EC -- vzniká vakance v orbitale (nejčastěji K), která je zaplněna kaskádovými přeskoky z vyšších orbitalů, čímž vzniká charakteristické \textbf{RTG záření} (nebo Augerův elektron).
-    \item IC -- neboli vnitřní konverze, nestabilní jádra se mohou energie zbavit tak, že vnitřně předají energii elektronům v obale. Ten je uvolněn, vzniká vakance, která je opět kaskádami zaplněna za vzniku charakteristického \textbf{RTG záření} (nebo Augerova elektronu).
+    \item EC -- konkurenční k $\beta^+$, když není dostatek energie (<2$\times$ 511 keV), tak elektron potřebný ke konverzi protonu na neutron se vezme z obalu. Vzniká vakance v orbitale (nejčastěji K), která je zaplněna kaskádovými přeskoky z vyšších orbitalů, čímž vzniká charakteristické \textbf{RTG záření} (nebo Augerův elektron).
+    \item IC -- neboli vnitřní konverze, vzbuzená jádra se mohou energie zbavit tak (kromě klasického $\gamma$ přechodu), že vnitřně předají energii elektronům v obale. Ten je uvolněn, vzniká vakance, která je opět kaskádami zaplněna za vzniku charakteristického \textbf{RTG záření} (nebo Augerova elektronu).
 \end{itemize}
 
 K tomu navíc existuje:
@@ -80,7 +80,7 @@ Jde o dominantní reakci při absorbci do 200 keV. Pravděpodobnost rekace (úč
 
 $$ \tau = c \dfrac{Z^n}{E_\gamma^{3,5}}, \: \: \: n \in (4,5). $$
 
-Energetické spektrum fotoelektronů (sekundární částice) je \textbf{čárové} a fotoefekt je zodpovědný za \textbf{peak úplného pohlcení}. Fotoelektrony mohou být uvolněny z libovolného orbitalu (nejpravděpodobněji K orbital), nicméně při nižší energii než $E_{V_K}$ už foton není schopný vyrazit elektron z K orbitalu, $\tau$ skokově klesá a dochází k vyrážení z vyšších orbitalů.
+Energetické spektrum fotoelektronů (sekundární částice) je \textbf{čárové} a fotoefekt je zodpovědný za \textbf{fotopeak}. Fotoelektrony mohou být uvolněny z libovolného orbitalu (nejpravděpodobněji K orbital), nicméně při nižší energii než $E_{V_K}$ už foton není schopný vyrazit elektron z K orbitalu, $\tau$ skokově klesá a dochází k vyrážení z vyšších orbitalů.
 
 \begin{figure}[H]
     \centering
@@ -91,20 +91,20 @@ Energetické spektrum fotoelektronů (sekundární částice) je \textbf{čárov
 
 $$ E_\gamma' = \dfrac{E_\gamma}{1 + \dfrac{E_\gamma}{m_\text{e}c^2}(1 - \text{cos}(\theta))}. $$
 
-Dochází k němu pro všší energie, pokud je energie nalétávajícího fotonu vyšší, než vazebná energie elektronu v obalu. Pravděpodobnost interakce (účinný průřez $\sigma$) je úměrná $Z$ a nepřímo úměrná energii $E_\gamma$:
+Dochází k němu pro vyšší energie, pokud je energie nalétávajícího fotonu vyšší, než vazebná energie elektronu v obalu. Pravděpodobnost interakce (účinný průřez $\sigma$) je úměrná $Z$ a nepřímo úměrná energii $E_\gamma$:
 
 $$ \sigma \sim \dfrac{Z}{E_\gamma}. $$
 
 Tím vznikají odražené elektrony (sekundární částice), které jsou detekovány. Energetické spektrum odražených elektronů je \textbf{spojité}, tzv. \textbf{Comptonovo kontinuum}. To je zakončeno \textbf{Comptonovou hranou}, která je dána maximální energií elektronů (k tomu dojde, dojde-li k čelní srážce, kdy $\theta = 180°$).
 
-Úhlová sitribuce rozptýlených fotonů je dána Klein-Nishinovým vztahem pro diferenciální účinný průřez, s rostoucí energií gamma fotonů roste pravděpodobnost dopředných úhlů.
+Úhlová distribuce rozptýlených fotonů je dána Klein-Nishinovým vztahem pro diferenciální účinný průřez, s rostoucí energií gamma fotonů roste pravděpodobnost dopředných úhlů.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/Compton.JPG}
 \end{figure}
 
-\textbf{Tvorba elektron-pozitron páru:} jde o důsledek interakce gamma fotonu s jádrem. Dojde k zaniknutí gamma fotonu a vznikne pár elektron-pozitron o energiích:
+\textbf{Tvorba elektron-pozitron páru:} jde o důsledek interakce gamma fotonu s jádrem atomu. Dojde k zaniknutí gamma fotonu a vznikne pár elektron-pozitron o energiích:
 
 $$ E = \dfrac{1}{2} (E_\gamma - 1022 \text{ keV}). $$
 
@@ -322,6 +322,7 @@ Polovodičové detektory mají $R \approx 1$ \%, scintiláky $R \approx 3-10$ \%
     \item Kumulativní mrtvá doba -- události, které nastaly v průběhu mrtvé doby, nejsou zaznamenány, ale vedou na prodloužení celkové mrtvé doby
 \end{itemize}
 
+Vysokou mrtvou dobu řeším tak, že dám vzorek dál.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{img/mrtva_doba.JPG}

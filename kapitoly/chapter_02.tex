@@ -5,11 +5,11 @@ Detailní znalost rozložení hustoty toku neutronů v AZ je nutná jak z pohled
 Obvykle jsou prováděny dva typy experimentů, které souvisejí s měřením hustoty toku neutronů:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] měření relativního rozložení hustoty toku neutronů v axiálním i radiálním směru,
-    \item[$-$] určení absolutní hustoty toku neutronů.
+    \item měření relativního rozložení hustoty toku neutronů v axiálním i radiálním směru,
+    \item určení absolutní hustoty toku neutronů.
 \end{itemize}
 
-Relativní rozložení hustoty toku neutronů lze získat z měření s malými aktivačními detektory ve formě folií (nebo drátů), či pomocí plynových detektorů s malými aktivními rozměry. V případě reaktorů s dostatečně vysokým výkonem lze k rozložení hustoty toku neutronů použít také samonapájecí detektory. Určování absolutní velikosti hustoty toku neutronů se provádí obvykle pomocí vhodného aktivačního detektoru (nejčastěji tenká folie zlata). Hrubého energetického rozdělení na tepelné a epitermální neutrony lze docílit pokrytím detektorů kadmiem.
+Relativní rozložení hustoty toku neutronů lze získat z měření s malými aktivačními detektory ve formě folií (nebo drátů), či pomocí plynových detektorů s malými aktivními rozměry. V případě reaktorů s dostatečně vysokým výkonem lze k rozložení hustoty toku neutronů použít také samonapájecí detektory (SPD). Určování absolutní velikosti hustoty toku neutronů se provádí obvykle pomocí vhodného aktivačního detektoru (nejčastěji tenká folie zlata). Hrubého energetického rozdělení na tepelné a epitermální neutrony lze docílit pokrytím detektorů kadmiem. Poté máme spektrum rozdělené na tepelné a tzv. sub-kadmiové neutrony.
 
 \subsection{Axilální rozložení hustoty toku neutronů}
 
@@ -24,11 +24,11 @@ D \cdot \nabla^2 \phi - \Sigma_{a} \cdot \phi + \dfrac{1}{k} \cdot \Sigma_{f} \p
 kde:
 
 \begin{itemize}
-    \item[$-$] $D$ je difuzní koeficient v AZ,
-    \item[$-$] $\phi$ je hustota toku neutronů v AZ,
-    \item[$-$] $\Sigma_{a}$, $\Sigma_{f}$ je makroskopický účinný průřez pro absorpci, štěpení v AZ,
-    \item[$-$] $\nu$ je průměrný výtěžek neutronů ze štěpení,
-    \item[$-$] $k$ je koeficient násobení.
+    \item $D$ je difuzní koeficient v AZ,
+    \item $\phi$ je hustota toku neutronů v AZ,
+    \item $\Sigma_{a}$, $\Sigma_{f}$ je makroskopický účinný průřez pro absorpci, štěpení v AZ,
+    \item $\nu$ je průměrný výtěžek neutronů ze štěpení,
+    \item $k$ je koeficient násobení.
 \end{itemize}
 
 Zavedením geometrického faktoru $B^2$ a vyřešením difuzní rovnice s okrajovými podmínkami, dostáváme tvar:
@@ -37,7 +37,7 @@ Zavedením geometrického faktoru $B^2$ a vyřešením difuzní rovnice s okrajo
     \phi = A \cdot \cos{\left(\dfrac{\pi z}{H'}\right)}
 \end{equation}
 
-Složitější situace nastává, pokud chceme popsat axiální rozložení hustoty toku neutronů v AZ s reflektorem. Účelem reflektoru je vracet zpět do AZ unikající neutrony, které by byly jinak pro štěpnou řetězovou reakci ztracené. Tím, že se sníží únik neutronů ze soustavy, můžeme při stejném složení AZ dosáhnout podstatně menších kritických rozměrů, než jsou potřebné pro reaktor bez reflektoru. Kromě tohoto efektu způsobuje reflektor zvýšení specifického výkonu reaktoru tím, že se v periferní oblasti AZ zvyšuje hustota toku neutronů a i průměrná hustota toku v celé aktivní oblasti. TOmuto nárůstu v hustotě toku se říká reflektorové peaky.
+Složitější situace nastává, pokud chceme popsat axiální rozložení hustoty toku neutronů v AZ s reflektorem. Účelem reflektoru je vracet zpět do AZ unikající neutrony, které by byly jinak pro štěpnou řetězovou reakci ztracené. Tím, že se sníží únik neutronů ze soustavy, můžeme při stejném složení AZ dosáhnout podstatně menších kritických rozměrů, než jsou potřebné pro reaktor bez reflektoru. Kromě tohoto efektu způsobuje reflektor zvýšení specifického výkonu reaktoru tím, že se v periferní oblasti AZ zvyšuje hustota toku neutronů a i průměrná hustota toku v celé aktivní oblasti. Tomuto nárůstu v hustotě toku se říká reflektorové peaky.
 
 V případě popisu rozložení hustoty toku neutronů v AZ s reflektorem je nutné použít dvouskupinovou teorii. Jednoskupinová teorie předpokládá, že všechny neutrony jsou tepelné a nezahrnuje skutečnost, že u rychlých neutronů unikajících do reflektoru, je větší pravděpodobnost, že budou rozptýleny zpět do AZ při srážkách, ke kterým dojde při zpomalení. Navíc neutrony, které vnikají do reflektoru s nad-rezonančními energiemi, se v reflektoru zpomalují a mohou se vrátit do AZ jako neutrony tepelné. Tím by se zcela vyhnuly rezonančnímu zachycení v palivu, které by nastalo, kdyby se zpomalovaly v AZ reaktoru. Tyto okolnosti zvyšují účinnost reflektoru ve srovnání s jeho účinností, jakou by měl reflektor, kdyby všechny neutrony byly tepelné.
 
@@ -48,15 +48,32 @@ V případě popisu rozložení hustoty toku neutronů v AZ s reflektorem je nut
     \label{fig:AxiálníRozložníVýkonu}
 \end{figure}
 
+Experimentální měření rozložení hustoty toku neutronů v AZ lze provádět s využitím různých detektorů. Rozdíl při měření jednotlivými detektory je popsán níže.
+
+
 \subsubsection{Měření rozložení hustoty toku neutronů plynovými detektory}
 
 Jeden ze způsobů experimentálního stanovení rozložení hustoty toku tepelných neutronů je využití rozměrově malých plynových detektorů pracujících v impulsním režimu. Obvykle se jedná o detektory plněné $^3$He nebo detektory s konvertorem neutronů v podobě tenké vrstvy z vysoce obohaceného $^{10}$B. Tyto detektory se umisťují do suchých vertikálních kanálů v AZ, kde na základě jejich odezvy (četnost $CR$) můžeme získat informaci o poli neutronů v AZ nebo její periferii. V případě postupného protahování detektoru po výšce kanálu obdržíme axiální rozložení hustoty toku neutronů.
 
-Při vysouvání detektoru z AZ může docházet ke zkreslení jeho odezvy, jelikož detektor prochází od oblastí s minimálními hustotami toku neutronů (vně AZ) do oblastí maximálních hustot toku neutronů (střed AZ). V takovém případě je nutné provést korekci na nelinearitu odezvy detektoru tak, abychom získali její nezkreslenou hodnotu. Nelinearita je způsobena především mrtvou dobou detekčního systému. Jednou z metod, které se používá k určení korekčního činitele nelinearity, respektive mrtvé doby detekčního systému, je metoda srovnání detekčního systému, který je v celém rozsahu měřicích četností lineární. Vhodným detekčním systémem pro tyto účely je kompenzovaná ionizační komora pracující v proudovém režimu pro měření malých proudů. Kompenzace zajišťuje korekce odezvy a srovnávací měření této komory již umožňuje zjistit lineární odezvu detekčního systému i pro vysoké hustoty toku neutronů.
+Při vysouvání detektoru z AZ může docházet ke zkreslení jeho odezvy, jelikož detektor prochází od oblastí s minimálními hustotami toku neutronů (vně AZ) do oblastí maximálních hustot toku neutronů (střed AZ). V takovém případě je nutné provést korekci na nelinearitu odezvy detektoru tak, abychom získali její nezkreslenou hodnotu. Nelinearita je způsobena především mrtvou dobou detekčního systému. Jednou z metod, které se používá k určení korekčního činitele nelinearity, respektive mrtvé doby detekčního systému, je metoda srovnání detekčního systému, který je v celém rozsahu měřicích četností lineární. Vhodným detekčním systémem pro tyto účely je \textbf{kompenzovaná ionizační komora pracující v proudovém režimu} pro měření malých proudů. Kompenzace zajišťuje korekce odezvy a srovnávací měření této komory již umožňuje zjistit lineární odezvu detekčního systému i pro vysoké hustoty toku neutronů.
+
+Chceme-li znát spektrum neutronů je potřeba pokrýt detektor vhodným materiálem, přičemž nejčastěji se používá kadmium (sežere tepelné neutrony). Poté lze stanovit odezvu na tepelné neutrony, jako: 
+
+\begin{equation*}
+CR_{\text{th}} = CR - F_{\text{Cd}} \cdot CR_{\text{Cd}}, 
+\end{equation*}
+
+kde:
+\begin{itemize}
+    \item $CR$ - je četnost získaná měřením s holým detektorem,
+    \item $CR_{\text{Cd}}$ - je četnost v případě detektoru umístěného v kadmiovém pokrytí,
+    \item $F_{\text{Cd}}$ - je kadmiový korekční faktor zohledňující, že kadmium zachycuje i neutrony mezi dolní hranicí epitermální oblasti ($\sim 0,1 \, \text{eV}$) a hranicí tzv. kadmiové hrany.
+\end{itemize}
+
 
 \subsubsection{Měření rozložení hustoty toku neutronů samonapájecími detektory}
 
-Samonapájecí detektory se využívají převážně v energetických reaktorech. Skládají se z tenkého drátku s velkým účinným průřezem pro záchyt neutronů, který vede k produkci $\beta^-$ nestabilního izotopu s kratším poločasem rozpadu (typicky rhodium nebo vanad). Tento drátek je obalen vrstvou izolantu, na kterou navazuje vodivý materiál kolektoru, který snímá impulzy. $\beta^-$ nestabilní izotop se ustaluje do rovnovážné koncentrace, která je úměrná absolutní hustotě toku neutronů v daném místě. Následně se rozpadá a vzniklé elektrony putují do kolektoru, kde jsou snímány jako elektrický proud ($\beta^-$ částice jsou v podstatě elektrony, které zapřičiňují vznik a přesun náboje v kolektoru).
+Samonapájecí detektory se využívají \textbf{převážně v energetických reaktorech}. Skládají se z tenkého drátku s velkým účinným průřezem pro záchyt neutronů, který vede k produkci $\beta^-$ nestabilního izotopu s kratším poločasem rozpadu (typicky rhodium nebo vanad). Tento drátek je obalen vrstvou izolantu, na kterou navazuje vodivý materiál kolektoru, který snímá impulzy. $\beta^-$ nestabilní izotop se ustaluje do rovnovážné koncentrace, která je úměrná absolutní hustotě toku neutronů v daném místě. Následně se rozpadá a vzniklé elektrony putují do kolektoru, kde jsou snímány jako elektrický proud ($\beta^-$ částice jsou v podstatě elektrony, které zapřičiňují vznik a přesun náboje v kolektoru).
 
 Jejich výhoda spočívá v tom, že nepotřebují napájení a pro každý detektor stačí pouze jeden drátek jako vývod do měřícího počítače. Zároveň jsou malé a skladné, do centrální trubice palivového souboru se jich naskládá několik, čímž je možné získat axiální rozložení neutronů v daném souboru.
 
@@ -89,22 +106,22 @@ Reakční rychlost ($RR$) lze určit z gamma spektrometrie dle:
 kde jednotlivé členy vyjadřují:
 
 \begin{itemize}%[noitemsep]
-    \item [$-$] $S(E_{\gamma})$ je plocha pod peakem příslušné energie,
-    \item [$-$] $\lambda$ je rozpadová konstanta pro $^{198}$Au,
-    \item [$-$] $t_\text{real}$ je skutečný čas měření v HPGe detektoru, 
-    \item [$-$] $t_\text{live}$ je čas měření se zohledněním mrtvé doby detektoru,
-    \item [$-$] $N_0$ udává počet jader v ozařovaném vzorku, $N_0 = \frac{m \cdot N_A}{M}$,
-    \item [$-$] $t_\text{a}$ udává čas ozařování v reaktoru,
-    \item [$-$] $t_\text{v}$ udává čas od ukončení ozařování do doby spuštění detektoru,
-    \item [$-$] $\varepsilon(E_{\gamma})$ značí detekční účinnost pro příslušnou energii,
-    \item [$-$] $I_{\gamma}(E_{\gamma})$ udává intenzitu gama linky příslušné energie.
+    \item  $S(E_{\gamma})$ je plocha pod peakem příslušné energie,
+    \item  $\lambda$ je rozpadová konstanta pro $^{198}$Au,
+    \item  $t_\text{real}$ je skutečný čas měření v HPGe detektoru, 
+    \item  $t_\text{live}$ je čas měření se zohledněním mrtvé doby detektoru,
+    \item  $N_0$ udává počet jader v ozařovaném vzorku, $N_0 = \frac{m \cdot N_A}{M}$,
+    \item  $t_\text{a}$ udává čas ozařování v reaktoru,
+    \item  $t_\text{v}$ udává čas od ukončení ozařování do doby spuštění detektoru,
+    \item  $\varepsilon(E_{\gamma})$ značí detekční účinnost pro příslušnou energii,
+    \item  $I_{\gamma}(E_{\gamma})$ udává intenzitu gama linky příslušné energie.
 \end{itemize}
 
 Metoda je lépe popsána v otázce 10 a 12.
 
 \subsection{Spektra neutronů v AZ reaktoru}
 
-Spektrum neutronů je spojité, tedy neutrony v jaderném reaktoru mohou mít energie od jednotek meV až po 20 MeV. Neutrony uvolněné při štěpení jader $^{235}$U mají střední energii přibližně 2 MeV. V tepelném reaktoru jsou neutrony ze štěpení zpomaleny srážkami s atomy moderátoru (nejčastěji H$_2$O), až dosáhnou přibližně tepelné rovnováhy s moderátorem. Jejich střední energie při pokojové teplotě je 0,0379 eV ($E = frac{3}{2} kT$) a nejpravděpodobnější energie 0,0253 eV ($E=kT$). Z uvedených hodnot vyplývá, že v tepelném reaktoru pokrývá spektrum neutronů (tj. rozložení neutronů v závislosti na jejich kinetické energii) v rozsahu energie více než osm řádů. Je zcela logické, že vzhledem k tak širokému oboru energií se neutrony v reaktoru účastní řady typů jaderných reakcí.
+Spektrum neutronů je spojité, tedy neutrony v jaderném reaktoru mohou mít energie od jednotek meV až po 20 MeV. Neutrony uvolněné při štěpení jader $^{235}$U mají střední energii přibližně 2~MeV. V tepelném reaktoru jsou neutrony ze štěpení zpomaleny srážkami s atomy moderátoru (nejčastěji H$_2$O), až dosáhnou přibližně tepelné rovnováhy s moderátorem. Jejich střední energie při pokojové teplotě je 0,0379 eV ($E = \frac{3}{2} kT$) a nejpravděpodobnější energie 0,0253 eV ($E=\frac{1}{2}kT$). Z uvedených hodnot vyplývá, že v tepelném reaktoru pokrývá spektrum neutronů (tj. rozložení neutronů v závislosti na jejich kinetické energii) v rozsahu energie více než osm řádů. Je zcela logické, že vzhledem k tak širokému oboru energií se neutrony v reaktoru účastní řady typů jaderných reakcí.
 
 %Interakce neutronů s materiály jsou zcela odlišné od interakcí nabitých částic nebo záření gama s materiály. Jelikož neutrony jsou elektricky neutrální, mohou snadno proniknout elektronovým obalem a reagovat přímo s jádrem. Neutrony nelze detekovat přímo, nýbrž přes jejich interakce s jádrem, které vedou ke vzniku sekundárně elektricky nabitých částic nebo fotonů, které pak mohou být detekovány standardními metodami, které se používají pro detekci ionizujícího záření. Mezi ně patří i aktivační metoda, která se řadí k nejpoužívanějším metodám v experimentální reaktorové fyzice. Metodu lze použít jak k absolutnímu, tak i relativnímu měření hustoty toku neutronů a určování spekter neutronů. Aktivační metoda je založena na principu, že v řadě případů se atomové jádro po zachycení neutronu mění na jádro radioaktivní. Měření záření gama nebo beta, které je pak emitováno radioaktivním jádrem, umožňuje určit jeho aktivitu. Z velikosti získané aktivity můžeme stanovit hustotu toku neutronů ve zkoumané energetické oblasti.
 
@@ -113,9 +130,9 @@ Spektrum neutronů je spojité, tedy neutrony v jaderném reaktoru mohou mít en
 V tepelném reaktoru můžeme spektrum neutronů rozdělit do tří oblastí podle jejich energie:
 
 \begin{itemize}%[noitemsep]
-    \item[$-$] oblast neutronů ze štěpení -- rychlé neutrony,
-    \item[$-$] oblast zpomalujících se neutronů -- neutrony středních (epitermálních) energií,
-    \item[$-$] oblast tepelných neutronů -- pomalé neutrony.
+    \item oblast neutronů ze štěpení -- rychlé neutrony,
+    \item oblast zpomalujících se neutronů -- neutrony středních (epitermálních) energií,
+    \item oblast tepelných neutronů -- pomalé neutrony.
 \end{itemize}
 
 Toto dělení není normativní, nicméně řadí se mezi nejčastěji používané.
@@ -134,18 +151,18 @@ Celý rozsah spektra neutronů je značný (viz Obrázek \ref{fig:SpektrumNeutro
 V tepelných reaktorech je možné spektrum popsat matematicky dle 3 rovnic:
 
 \begin{itemize}
-    \item [$-$] Maxwellovo spektrum
+    \item  Maxwellovo spektrum
     \begin{equation*}
         \chi(E) = C_1 E \exp\left(-\frac{E}{kT}\right), 
     \end{equation*}
     kde součin $kT$ při teplotě 20°C má hodnotu $kT = 0,0253\ $eV.
     
-    \item [$-$] Spektrum pro zpomalující se neutrony
+    \item  Spektrum pro zpomalující se neutrony
     \begin{equation*}
         \chi(E) = \frac{C_2}{E}, 
     \end{equation*}
     
-    \item [$-$] Štěpné spektrum
+    \item  Štěpné spektrum
     \begin{equation*}
         \chi(E) = C_3 \sqrt{E} \exp\left(-\frac{E}{\Theta_\text{fis}}\right), 
     \end{equation*}
@@ -210,15 +227,15 @@ Reakční rychlost ($RR$) lze určit podle vzorce \eqref{RR}.
 kde jednotlivé členy vyjadřují:
 
 \begin{itemize}%[noitemsep]
-    \item [$-$] $S(E_{\gamma})$ je plocha pod peakem příslušné energie,
-    \item [$-$] $\lambda$ je rozpadová konstanta pro $^{198}$Au,
-    \item [$-$] $t_\text{real}$ je skutečný čas měření v HPGe detektoru, 
-    \item [$-$] $t_\text{live}$ je čas měření se zohledněním mrtvé doby detektoru,
-    \item [$-$] $N_0$ udává počet jader v ozařovaném vzorku\footnote{$N_0$ se určí ze znalosti hmotnosti vzorku, jako $N_0 = \frac{m \cdot N_A}{M}$},
-    \item [$-$] $t_\text{a}$ udává čas ozařování v reaktoru,
-    \item [$-$] $t_\text{v}$ udává čas od ukončení ozařování do doby spuštění detektoru,
-    \item [$-$] $\varepsilon(E_{\gamma})$ značí detekční účinnost pro příslušnou energii,
-    \item [$-$] $I_{\gamma}(E_{\gamma})$ udává intenzitu gama linky příslušné energie.
+    \item  $S(E_{\gamma})$ je plocha pod peakem příslušné energie,
+    \item  $\lambda$ je rozpadová konstanta pro $^{198}$Au,
+    \item  $t_\text{real}$ je skutečný čas měření v HPGe detektoru, 
+    \item  $t_\text{live}$ je čas měření se zohledněním mrtvé doby detektoru,
+    \item  $N_0$ udává počet jader v ozařovaném vzorku\footnote{$N_0$ se určí ze znalosti hmotnosti vzorku, jako $N_0 = \frac{m \cdot N_A}{M}$},
+    \item  $t_\text{a}$ udává čas ozařování v reaktoru,
+    \item  $t_\text{v}$ udává čas od ukončení ozařování do doby spuštění detektoru,
+    \item  $\varepsilon(E_{\gamma})$ značí detekční účinnost pro příslušnou energii,
+    \item  $I_{\gamma}(E_{\gamma})$ udává intenzitu gama linky příslušné energie.
 \end{itemize}
 
 \subsection{Stanovení maximální hustoty toku tepelných neutronů}

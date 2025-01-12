@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  1 JAN 2025 17:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  12 JAN 2025 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,7 +632,55 @@ Package translations Info: No language package found. I am going to use `english
 
 LaTeX Warning: Label `SNM' multiply defined.
 
-) (./kapitoly/chapter_06.aux) (./kapitoly/chapter_07.aux) (./kapitoly/chapter_08.aux) (./kapitoly/chapter_09.aux) (./kapitoly/chapter_10.aux) (./kapitoly/chapter_11.aux) (./kapitoly/chapter_12.aux) (./kapitoly/chapter_13.aux) (./kapitoly/chapter_14.aux) (./kapitoly/chapter_15.aux))
+) (./kapitoly/chapter_06.aux) (./kapitoly/chapter_07.aux) (./kapitoly/chapter_08.aux) (./kapitoly/chapter_09.aux) (./kapitoly/chapter_10.aux) (./kapitoly/chapter_11.aux) (./kapitoly/chapter_12.aux) (./kapitoly/chapter_13.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+) (./kapitoly/chapter_14.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+) (./kapitoly/chapter_15.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -750,11 +798,11 @@ No file none.tex.
 
 
 
-])
+] [4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4]
+ [5]
 \openout2 = `kapitoly/chapter_01.aux'.
 
  (./kapitoly/chapter_01.tex
@@ -762,40 +810,55 @@ Overfull \hbox (10.42537pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 Metody m^^Te^^Tren^^S^^P reak-tiv-ity a stanoven^^S^^P charak-ter-is-tiky ab-sorp^^Tcn^^S^^P
  []
 
-[5
 
-] [6]
-Overfull \hbox (5.75154pt too wide) in paragraph at lines 92--93
-[]\OT1/cmr/m/n/10.95 Abychom mohli vy^^Tre^^Tsit tyto rovnice, je nutn^^Se ap-liko-vat ^^Supravy in-tegr^^Sal^^Wu a z^^Sarove^^Tn ur^^Tcit podm^^S^^Pnky.
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 13.
+
+[6
+
+] [7]
+<img/RodDropMěření.png, id=46, 760.0395pt x 525.162pt>
+File: img/RodDropMěření.png Graphic file (type png)
+<use img/RodDropMěření.png>
+Package pdftex.def Info: img/RodDropMěření.png  used on input line 125.
+(pdftex.def)             Requested size: 266.0178pt x 183.80945pt.
+ [8 <./img/RodDropMěření.png>]
+Overfull \hbox (6.66406pt too wide) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10.95 Abychom mohli vy^^Tre^^Tsit tyto rovnice, je nutn^^Se ap-liko-vat ^^Supravy in-tegr^^Sal^^Wu a z^^Sarove^^Tn ur^^Tcit podm^^S^^Pnky: 
  []
 
-<img/RodDrop.png, id=41, 628.14674pt x 434.22224pt>
+<img/RodDrop.png, id=52, 628.14674pt x 434.22224pt>
 File: img/RodDrop.png Graphic file (type png)
 <use img/RodDrop.png>
-Package pdftex.def Info: img/RodDrop.png  used on input line 102.
-(pdftex.def)             Requested size: 251.25424pt x 173.6858pt.
-[7 <./img/RodDrop.png>]
-<img/NásobeníZdroje.png, id=50, 1003.75pt x 501.875pt>
+Package pdftex.def Info: img/RodDrop.png  used on input line 163.
+(pdftex.def)             Requested size: 188.44548pt x 130.26767pt.
+[9 <./img/RodDrop.png>]
+Overfull \hbox (0.67076pt too wide) in paragraph at lines 179--181
+[]\OT1/cmr/m/n/10.95 Z rovnic bodov^^Se kinetiky, z^^S^^Psk^^Same ne-ho-mogenn^^S^^P difer-enci^^Saln^^S^^P rovnici druh^^Seho ^^Tr^^Sadu s kon-stantn^^S^^Pmi
+ []
+
+<img/NásobeníZdroje.png, id=58, 1003.75pt x 501.875pt>
 File: img/NásobeníZdroje.png Graphic file (type png)
 <use img/NásobeníZdroje.png>
-Package pdftex.def Info: img/NásobeníZdroje.png  used on input line 127.
+Package pdftex.def Info: img/NásobeníZdroje.png  used on input line 198.
 (pdftex.def)             Requested size: 401.49289pt x 200.74643pt.
- [8 <./img/NásobeníZdroje.png>]
-<img/KladnáPeriodaKořeny.png, id=54, 504.08325pt x 334.24875pt>
+[10 <./img/NásobeníZdroje.png>]
+<img/KladnáPeriodaKořeny.png, id=63, 504.08325pt x 334.24875pt>
 File: img/KladnáPeriodaKořeny.png Graphic file (type png)
 <use img/KladnáPeriodaKořeny.png>
-Package pdftex.def Info: img/KladnáPeriodaKořeny.png  used on input line 146.
+Package pdftex.def Info: img/KladnáPeriodaKořeny.png  used on input line 217.
 (pdftex.def)             Requested size: 352.85587pt x 233.97252pt.
- [9 <./img/KladnáPeriodaKořeny.png>] Excluding 'comment' comment. [10] [11]
-<img/CharakteristikaTyče.png, id=65, 608.2725pt x 437.2335pt>
+ [11 <./img/KladnáPeriodaKořeny.png>] Excluding 'comment' comment. [12] [13]
+<img/CharakteristikaTyče.png, id=75, 608.2725pt x 437.2335pt>
 File: img/CharakteristikaTyče.png Graphic file (type png)
 <use img/CharakteristikaTyče.png>
-Package pdftex.def Info: img/CharakteristikaTyče.png  used on input line 305.
-(pdftex.def)             Requested size: 425.78786pt x 306.06136pt.
- [12 <./img/CharakteristikaTyče.png>]) [13]
+Package pdftex.def Info: img/CharakteristikaTyče.png  used on input line 374.
+(pdftex.def)             Requested size: 273.7201pt x 196.75325pt.
+ [14 <./img/CharakteristikaTyče.png>]) [15]
 \openout2 = `kapitoly/chapter_02.aux'.
 
- (./kapitoly/chapter_02.tex [14
+ (./kapitoly/chapter_02.tex [16
 
 
 
@@ -804,36 +867,36 @@ Overfull \hbox (17.82458pt too wide) in paragraph at lines 42--43
 []\OT1/cmr/m/n/10.95 V p^^Tr^^S^^Ppad^^Te popisu ro-zlo^^Tzen^^S^^P hus-toty toku neu-tron^^Wu v AZ s re-flek-torem je nutn^^Se pou^^Tz^^S^^Pt dvouskupinovou
  []
 
-<img/AxiálníRozloženíVýkonu.png, id=78, 618.51076pt x 428.802pt>
+<img/AxiálníRozloženíVýkonu.png, id=87, 618.51076pt x 428.802pt>
 File: img/AxiálníRozloženíVýkonu.png Graphic file (type png)
 <use img/AxiálníRozloženíVýkonu.png>
 Package pdftex.def Info: img/AxiálníRozloženíVýkonu.png  used on input line 46.
 (pdftex.def)             Requested size: 371.10931pt x 257.28317pt.
-[15 <./img/AxiálníRozloženíVýkonu.png>] [16]
-Overfull \hbox (0.26607pt too wide) in paragraph at lines 77--78
+[17 <./img/AxiálníRozloženíVýkonu.png>] [18]
+Overfull \hbox (0.26607pt too wide) in paragraph at lines 94--95
 \OT1/cmr/m/n/10.95 kad-miov^^Seho pouz-dra lze m^^Te^^Trit reak^^Tcn^^S^^P rychlost epiterm^^Saln^^S^^Pch neu-tron^^Wu ($\OML/cmm/m/it/10.95 RR[]$\OT1/cmr/m/n/10.95 ). Reak^^Tcn^^S^^P rychlost
  []
 
-[17]
-<img/SpektrumNeutronů.png, id=89, 622.12425pt x 431.81325pt>
+[19]
+<img/SpektrumNeutronů.png, id=99, 622.12425pt x 431.81325pt>
 File: img/SpektrumNeutronů.png Graphic file (type png)
 <use img/SpektrumNeutronů.png>
-Package pdftex.def Info: img/SpektrumNeutronů.png  used on input line 129.
+Package pdftex.def Info: img/SpektrumNeutronů.png  used on input line 146.
 (pdftex.def)             Requested size: 311.06136pt x 215.90608pt.
- [18 <./img/SpektrumNeutronů.png>] Excluding 'comment' comment.) [19]
+ [20] Excluding 'comment' comment.) [21 <./img/SpektrumNeutronů.png>]
 \openout2 = `kapitoly/chapter_03.aux'.
 
- (./kapitoly/chapter_03.tex [20
+ (./kapitoly/chapter_03.tex [22
 
 
 
-]
-<img/KritickýExperiment.png, id=101, 502.87875pt x 344.487pt>
+] [23]
+<img/KritickýExperiment.png, id=113, 502.87875pt x 344.487pt>
 File: img/KritickýExperiment.png Graphic file (type png)
 <use img/KritickýExperiment.png>
-Package pdftex.def Info: img/KritickýExperiment.png  used on input line 71.
+Package pdftex.def Info: img/KritickýExperiment.png  used on input line 75.
 (pdftex.def)             Requested size: 352.01273pt x 241.13924pt.
- [21]) [22 <./img/KritickýExperiment.png>]
+) [24 <./img/KritickýExperiment.png>]
 \openout2 = `kapitoly/chapter_04.aux'.
 
  (./kapitoly/chapter_04.tex
@@ -841,11 +904,32 @@ Overfull \hbox (16.9032pt too wide) in paragraph at lines 7--8
 \OT1/cmr/m/n/10.95 K charak-ter-i-zaci en-ergie neu-tron^^Wu v reak-toru se krom^^Te reak^^Tcn^^S^^Pch rychlost^^S^^P vyu^^Tz^^S^^Pv^^Sa i tzv. spektr^^Saln^^S^^Pch
  []
 
-[23
+[25
 
 
 
-]) [24]
+] [26] [27]
+Overfull \hbox (11.59163pt too wide) in paragraph at lines 124--125
+[]\OT1/cmr/m/n/10.95 RR(n,f) je v^^Sysledn^^Sa reak^^Tcn^^S^^P rychlost ze ^^Tst^^Tepen^^S^^P stanoven^^Sa jako v^^Sa^^Tzen^^Sy pr^^Wum^^Ter z RR(n,f)(A,Z). 
+ []
+
+[28]
+
+LaTeX Warning: Reference `gg' on page 29 undefined on input line 184.
+
+
+LaTeX Warning: Reference `spekindexy' on page 29 undefined on input line 184.
+
+
+LaTeX Warning: Reference `ngamma' on page 29 undefined on input line 187.
+
+
+LaTeX Warning: Reference `all' on page 29 undefined on input line 189.
+
+
+LaTeX Warning: Reference `spekindexy' on page 29 undefined on input line 191.
+
+) [29]
 \openout2 = `kapitoly/chapter_05.aux'.
 
  (./kapitoly/chapter_05.tex
@@ -854,33 +938,106 @@ Overfull \hbox (5.06538pt too wide) in paragraph at lines 1--1
  []
 
 
-Overfull \hbox (0.58083pt too wide) in paragraph at lines 35--36
+Overfull \hbox (1.52345pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/10.95 zanedb^^Savaj^^S^^P zm^^Tenu pros-torov^^Seho ro-zlo^^Tzen^^S^^P $\OMS/cmsy/b/n/10.95 !$ \OT1/cmr/m/n/10.95 nastane-li zm^^Tena na vs-tupn^^S^^Pch parame-trech (zv^^Tet^^Ts^^S^^P-
+ []
+
+[30
+
+
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[31] [32]
+Overfull \hbox (0.58083pt too wide) in paragraph at lines 161--162
 \OT1/cmr/m/n/10.95 v^^Syznamnou roli v p^^Tr^^S^^Ppad^^Te odstaven^^S^^P jadern^^Seho reak-toru, kdy odezn^^S^^P vliv okam^^Tzit^^Sych a kr^^Satkodob^^Te
  []
 
-[25
-
-
-
-]
-<img/ZpožděnéNeutrony.png, id=119, 829.9005pt x 506.49225pt>
+<img/ZpožděnéNeutrony.png, id=153, 829.9005pt x 506.49225pt>
 File: img/ZpožděnéNeutrony.png Graphic file (type png)
 <use img/ZpožděnéNeutrony.png>
-Package pdftex.def Info: img/ZpožděnéNeutrony.png  used on input line 39.
+Package pdftex.def Info: img/ZpožděnéNeutrony.png  used on input line 165.
 (pdftex.def)             Requested size: 364.19664pt x 222.26991pt.
- [26 <./img/ZpožděnéNeutrony.png>] [27] [28]
-Overfull \hbox (9.97943pt too wide) in paragraph at lines 142--143
+[33 <./img/ZpožděnéNeutrony.png>] [34] [35]
+<img/ZpožděnéNautrony2.png, id=167, 507.0945pt x 349.90726pt>
+File: img/ZpožděnéNautrony2.png Graphic file (type png)
+<use img/ZpožděnéNautrony2.png>
+Package pdftex.def Info: img/ZpožděnéNautrony2.png  used on input line 266.
+(pdftex.def)             Requested size: 364.19664pt x 251.31902pt.
+
+Overfull \hbox (9.97943pt too wide) in paragraph at lines 275--276
 \OT1/cmr/m/n/10.95 Je zalo^^Tzena na oz^^Sa^^Tren^^S^^P vzorku ob-sahuj^^S^^Pc^^S^^Pho ^^Tst^^Tepn^^Sy ma-teri^^Sal neu-trony a n^^Sasledn^^Se de-tekci zpo^^Tzd^^Ten^^Sych
  []
 
-) [29]
+[36 <./img/ZpožděnéNautrony2.png>]
+<img/ZpožděnéNeutrony3.png, id=172, 693.18974pt x 483.60675pt>
+File: img/ZpožděnéNeutrony3.png Graphic file (type png)
+<use img/ZpožděnéNeutrony3.png>
+Package pdftex.def Info: img/ZpožděnéNeutrony3.png  used on input line 301.
+(pdftex.def)             Requested size: 364.19664pt x 254.08182pt.
+) [37] [38 <./img/ZpožděnéNeutrony3.png>]
 \openout2 = `kapitoly/chapter_06.aux'.
 
- (./kapitoly/chapter_06.tex) [30
+ (./kapitoly/chapter_06.tex [39
 
 
 
-]
+] [40] [41]
+<img/KlasifikacePlynovýchDetektorů.png, id=190, 310.15875pt x 263.7855pt>
+File: img/KlasifikacePlynovýchDetektorů.png Graphic file (type png)
+<use img/KlasifikacePlynovýchDetektorů.png>
+Package pdftex.def Info: img/KlasifikacePlynovýchDetektorů.png  used on input line 150.
+(pdftex.def)             Requested size: 227.62204pt x 193.5882pt.
+ [42 <./img/KlasifikacePlynovýchDetektorů.png>]
+Overfull \hbox (5.81238pt too wide) in paragraph at lines 184--185
+[]\OT1/cmr/m/n/10.95 Foton^^Sasobi^^Tc, kter^^Sy je ^^Tcasto sou^^Tc^^Sast^^S^^P scin-tila^^Tcn^^S^^Pho de-tek-toru, fun-guje na prin-cipu zes^^S^^Plen^^S^^P sv^^Teteln^^Seho
+ []
+
+<img/Scintilátor.png, id=195, 464.937pt x 177.66376pt>
+File: img/Scintilátor.png Graphic file (type png)
+<use img/Scintilátor.png>
+Package pdftex.def Info: img/Scintilátor.png  used on input line 190.
+(pdftex.def)             Requested size: 227.62204pt x 86.98009pt.
+[43]
+Overfull \hbox (7.33322pt too wide) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10.95 V^^Sykonnost t^^Techto de-tek-tor^^Wu je siln^^Te ovlivn^^Tena vol-bou emi-toru, jeho ^^Su^^Tcinn^^Sym pr^^Wu^^Trezem a polo^^Tcasem
+ []
+
+[44 <./img/Scintilátor.png>]
+<img/SPD_1.png, id=204, 269.20575pt x 90.93974pt>
+File: img/SPD_1.png Graphic file (type png)
+<use img/SPD_1.png>
+Package pdftex.def Info: img/SPD_1.png  used on input line 222.
+(pdftex.def)             Requested size: 227.62204pt x 76.89255pt.
+
+Overfull \hbox (21.4466pt too wide) in paragraph at lines 229--230
+\OT1/cmr/m/n/10.95 Termoluminiscen^^Tcn^^S^^P de-tek-tory jsou za^^Tr^^S^^Pzen^^S^^P, kter^^Sa vyu^^Tz^^S^^Pvaj^^S^^P schop-nost n^^Tekter^^Sych ma-teri^^Sal^^Wu uchov^^Savat
+ []
+
+[45 <./img/SPD_1.png>]
+<img/AktivačníDetektory.png, id=209, 451.6875pt x 191.5155pt>
+File: img/AktivačníDetektory.png Graphic file (type png)
+<use img/AktivačníDetektory.png>
+Package pdftex.def Info: img/AktivačníDetektory.png  used on input line 264.
+(pdftex.def)             Requested size: 227.62204pt x 96.51437pt.
+ [46 <./img/AktivačníDetektory.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47]
+<img/KompenzovanáKomora.png, id=217, 380.622pt x 145.14224pt>
+File: img/KompenzovanáKomora.png Graphic file (type png)
+<use img/KompenzovanáKomora.png>
+Package pdftex.def Info: img/KompenzovanáKomora.png  used on input line 357.
+(pdftex.def)             Requested size: 227.62204pt x 86.80031pt.
+ [48]) [49 <./img/KompenzovanáKomora.png>]
 \openout2 = `kapitoly/chapter_07.aux'.
 
  (./kapitoly/chapter_07.tex
@@ -888,11 +1045,36 @@ Overfull \hbox (38.63023pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 M^^Te^^Tren^^S^^P z^^Sakladn^^S^^Pch charak-ter-is-tik ra-dionuk-li-dov^^Sych, gener^^Satorov^^Sych
  []
 
-) [31
+
+Overfull \hbox (14.87662pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/10.95 Zdroje neu-tron^^Wu jsou v^^Syznamn^^Sym n^^Sastrojem ve v^^Tedeck^^Sych, v^^Syzkumn^^Sych, l^^Seka^^Trsk^^Sych, ale i p^^Tr^^S^^Prodn^^S^^Pch
+ []
+
+<img/generator.png, id=227, 670.30424pt x 344.487pt>
+File: img/generator.png Graphic file (type png)
+<use img/generator.png>
+Package pdftex.def Info: img/generator.png  used on input line 38.
+(pdftex.def)             Requested size: 328.45195pt x 168.8001pt.
+[50
 
 
 
 ]
+<img/SpektrumNeutronůZFůzníhoGenerátoru.jpg, id=231, 252.945pt x 200.75pt>
+File: img/SpektrumNeutronůZFůzníhoGenerátoru.jpg Graphic file (type jpg)
+<use img/SpektrumNeutronůZFůzníhoGenerátoru.jpg>
+Package pdftex.def Info: img/SpektrumNeutronůZFůzníhoGenerátoru.jpg  used on input line 45.
+(pdftex.def)             Requested size: 252.94438pt x 200.7495pt.
+ [51 <./img/generator.png> <./img/SpektrumNeutronůZFůzníhoGenerátoru.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52]
+Overfull \hbox (12.88942pt too wide) in paragraph at lines 131--132
+\OT1/cmr/m/n/10.95 Mezi z^^Sakladn^^S^^P charak-ter-is-tiky fo-toneu-tronov^^Sych zdroj^^Wu pat^^Tr^^S^^P en-ergie a v^^Syt^^Te^^Tzek neu-tron^^Wu. D^^Wule^^Tzit^^Sym
+ []
+
+) [53]
 \openout2 = `kapitoly/chapter_08.aux'.
 
  (./kapitoly/chapter_08.tex
@@ -900,76 +1082,96 @@ Overfull \hbox (19.08537pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 Spektrometrie neu-tron^^Wu po-moc^^S^^P Bon-nerov^^Sych sf^^Ser a scin-tila^^Tcn^^S^^Pch
  []
 
-) [32
+<img/BonorovySféry.png, id=242, 313.77225pt x 192.72pt>
+File: img/BonorovySféry.png Graphic file (type png)
+<use img/BonorovySféry.png>
+Package pdftex.def Info: img/BonorovySféry.png  used on input line 27.
+(pdftex.def)             Requested size: 341.43306pt x 209.72244pt.
+[54
 
 
 
 ]
+Overfull \hbox (29.17851pt too wide) in paragraph at lines 62--63
+\OT1/cmr/m/n/10.95 til^^Sator LiI(Eu) nebo he-liov^^Se ko-mory $[]$He) a sada polyetylenov^^Sych koul^^S^^P r^^Wuzn^^Sych pr^^Wum^^Ter^^Wu. Polyetylenov^^Se
+ []
+
+[55 <./img/BonorovySféry.png>]
+Overfull \hbox (10.00989pt too wide) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/10.95 Odezvov^^Sa funkce dan^^Se koule vy-jad^^Truje pravd^^Tepodobnost, ^^Tze neu-tron ur^^Tcit^^Se en-ergie bude moderov^^San
+ []
+
+
+Overfull \hbox (8.76277pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/m/n/10.95 Pou^^Tz^^S^^Pvaj^^S^^P se hlavn^^Te scin-tila^^Tcn^^S^^P de-tek-tory a polovodi^^Tcov^^Se de-tek-tory v podob^^Te proton-recoil-teleskopu
+ []
+
+[56]
+Overfull \hbox (3.6528pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10.95 Teleskop odra^^Tzen^^Sych pro-ton^^Wu vyu^^Tz^^S^^Pv^^Sa dva nebo t^^Tri tenk^^Se polovodi^^Tcov^^Se de-tek-tory, p^^Tri^^Tcem^^Tz posledn^^S^^P
+ []
+
+)
+Overfull \hbox (6.63602pt too wide) in paragraph at lines 135--94
+\OT1/cmr/m/n/10.95 vysky-tuje. Tvarov^^Sa diskrim-i-nace im-puls^^Wu (elek-tronov^^Se im-pulsy od $\OML/cmm/b/it/10.95 ^^M$\OT1/cmr/m/n/10.95 -z^^Sa^^Tren^^S^^P maj^^S^^P rychlou n^^Sab^^Te^^Tznou
+ []
+
+[57]
 \openout2 = `kapitoly/chapter_09.aux'.
 
- (./kapitoly/chapter_09.tex
-Overfull \hbox (0.35771pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/n/10.95 p^^Tredaj^^S^^P en-ergii elek-tron^^Wum v obale. Ten je uvoln^^Ten, vznik^^Sa vakance, kter^^Sa je op^^Tet kask^^Sadami
- []
-
-[33
+ (./kapitoly/chapter_09.tex [58
 
 
 
-]
-Overfull \hbox (3.05193pt too wide) in paragraph at lines 38--39
-[]\OT1/cmr/m/n/10.95 Vlnov^^Se d^^Selky se po-hy-buj^^S^^P ^^Tr^^Sadov^^Te $\OML/cmm/m/it/10.95 ^^U << \OT1/cmr/m/n/10.95 10[]$ m, co^^Tz je v^^Syrazn^^Te m^^Sen^^Te ne^^Tz mezi-ato-mov^^Se vzd^^Salenosti
- []
-
-[34]
-<img/interakce.JPG, id=149, 841.9455pt x 353.52075pt>
+] [59]
+<img/interakce.JPG, id=264, 841.9455pt x 353.52075pt>
 File: img/interakce.JPG Graphic file (type jpg)
 <use img/interakce.JPG>
 Package pdftex.def Info: img/interakce.JPG  used on input line 72.
 (pdftex.def)             Requested size: 455.24408pt x 191.1465pt.
-<img/fotoefekt.JPG, id=150, 892.5345pt x 199.34476pt>
+<img/fotoefekt.JPG, id=265, 892.5345pt x 199.34476pt>
 File: img/fotoefekt.JPG Graphic file (type jpg)
 <use img/fotoefekt.JPG>
 Package pdftex.def Info: img/fotoefekt.JPG  used on input line 87.
 (pdftex.def)             Requested size: 455.24408pt x 101.67664pt.
- [35 <./img/interakce.JPG>]
+ [60 <./img/interakce.JPG>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
 
-Missing character: There is no � in font cmr10!
-<img/Compton.JPG, id=154, 1079.232pt x 230.0595pt>
+Missing character: There is no � in font cmbx10!
+<img/Compton.JPG, id=269, 1079.232pt x 230.0595pt>
 File: img/Compton.JPG Graphic file (type jpg)
 <use img/Compton.JPG>
 Package pdftex.def Info: img/Compton.JPG  used on input line 104.
 (pdftex.def)             Requested size: 455.24408pt x 97.04207pt.
-[36 <./img/fotoefekt.JPG> <./img/Compton.JPG>]
-<img/pár.JPG, id=158, 575.14874pt x 177.66376pt>
+[61 <./img/fotoefekt.JPG> <./img/Compton.JPG>]
+<img/pár.JPG, id=274, 575.14874pt x 177.66376pt>
 File: img/pár.JPG Graphic file (type jpg)
 <use img/pár.JPG>
 Package pdftex.def Info: img/pár.JPG  used on input line 119.
 (pdftex.def)             Requested size: 318.66946pt x 98.43918pt.
- [37 <./img/pár.JPG>]
-<img/maly_detektor.JPG, id=163, 422.7795pt x 157.7895pt>
+ [62 <./img/pár.JPG>]
+<img/maly_detektor.JPG, id=278, 422.7795pt x 157.7895pt>
 File: img/maly_detektor.JPG Graphic file (type jpg)
 <use img/maly_detektor.JPG>
 Package pdftex.def Info: img/maly_detektor.JPG  used on input line 175.
 (pdftex.def)             Requested size: 318.66946pt x 118.94133pt.
- [38 <./img/maly_detektor.JPG>]
-<img/velky_detektor.JPG, id=167, 253.54726pt x 141.52875pt>
+ [63 <./img/maly_detektor.JPG>]
+<img/velky_detektor.JPG, id=282, 253.54726pt x 141.52875pt>
 File: img/velky_detektor.JPG Graphic file (type jpg)
 <use img/velky_detektor.JPG>
 Package pdftex.def Info: img/velky_detektor.JPG  used on input line 185.
 (pdftex.def)             Requested size: 182.09485pt x 101.6501pt.
-<img/stredni_detektor.JPG, id=168, 441.44925pt x 192.11775pt>
+<img/stredni_detektor.JPG, id=283, 441.44925pt x 192.11775pt>
 File: img/stredni_detektor.JPG Graphic file (type jpg)
 <use img/stredni_detektor.JPG>
 Package pdftex.def Info: img/stredni_detektor.JPG  used on input line 197.
 (pdftex.def)             Requested size: 318.66946pt x 138.68524pt.
- [39 <./img/velky_detektor.JPG> <./img/stredni_detektor.JPG>]
-<img/vliv_materialu.JPG, id=172, 609.477pt x 174.05025pt>
+ [64 <./img/velky_detektor.JPG> <./img/stredni_detektor.JPG>]
+<img/vliv_materialu.JPG, id=287, 609.477pt x 174.05025pt>
 File: img/vliv_materialu.JPG Graphic file (type jpg)
 <use img/vliv_materialu.JPG>
 Package pdftex.def Info: img/vliv_materialu.JPG  used on input line 225.
@@ -979,59 +1181,59 @@ Overfull \hbox (4.82886pt too wide) in paragraph at lines 231--232
 \OT1/cmr/m/n/10.95 z^^Saznam v jed-notliv^^Sych en-er-get-ick^^Sych kan^^Salech. Pod 100 za-z-na-me-nan^^Sych ud^^Salost^^S^^P je t^^Treba uva^^Tzovat
  []
 
-[40 <./img/vliv_materialu.JPG>]
-<img/scintilak.JPG, id=176, 501.67426pt x 388.45125pt>
+[65 <./img/vliv_materialu.JPG>]
+<img/scintilak.JPG, id=291, 501.67426pt x 388.45125pt>
 File: img/scintilak.JPG Graphic file (type jpg)
 <use img/scintilak.JPG>
 Package pdftex.def Info: img/scintilak.JPG  used on input line 261.
 (pdftex.def)             Requested size: 295.90587pt x 229.12497pt.
- [41 <./img/scintilak.JPG>] [42]
+ [66 <./img/scintilak.JPG>] [67]
 Overfull \hbox (16.54953pt too wide) in paragraph at lines 316--317
 \OT1/cmr/m/n/10.95 Jed-notliv^^Sym bin^^Wum za po-moci kali-bra^^Tcn^^S^^Pch z^^Sa^^Tri^^Tc^^Wu p^^Tri^^Trad^^S^^Pm konkr^^Setn^^S^^P en-ergii, p^^Tri^^Tcem^^Tz p^^Tredpokl^^Sad^^Sam
  []
 
-<img/mrtva_doba.JPG, id=183, 720.89325pt x 308.95425pt>
+<img/mrtva_doba.JPG, id=299, 720.89325pt x 308.95425pt>
 File: img/mrtva_doba.JPG Graphic file (type jpg)
 <use img/mrtva_doba.JPG>
-Package pdftex.def Info: img/mrtva_doba.JPG  used on input line 327.
+Package pdftex.def Info: img/mrtva_doba.JPG  used on input line 328.
 (pdftex.def)             Requested size: 364.19664pt x 156.0843pt.
-<img/detekcni_krivka.JPG, id=184, 646.8165pt x 386.6445pt>
+<img/detekcni_krivka.JPG, id=300, 646.8165pt x 386.6445pt>
 File: img/detekcni_krivka.JPG Graphic file (type jpg)
 <use img/detekcni_krivka.JPG>
-Package pdftex.def Info: img/detekcni_krivka.JPG  used on input line 335.
+Package pdftex.def Info: img/detekcni_krivka.JPG  used on input line 336.
 (pdftex.def)             Requested size: 364.19664pt x 217.69939pt.
-[43 <./img/mrtva_doba.JPG>]) [44 <./img/detekcni_krivka.JPG>]
+[68 <./img/mrtva_doba.JPG>]) [69 <./img/detekcni_krivka.JPG>]
 \openout2 = `kapitoly/chapter_10.aux'.
 
  (./kapitoly/chapter_10.tex
-<img/zdroje_E.JPG, id=192, 339.669pt x 280.04625pt>
+<img/zdroje_E.JPG, id=307, 339.669pt x 280.04625pt>
 File: img/zdroje_E.JPG Graphic file (type jpg)
 <use img/zdroje_E.JPG>
 Package pdftex.def Info: img/zdroje_E.JPG  used on input line 21.
 (pdftex.def)             Requested size: 182.09485pt x 150.13306pt.
- [45
+ [70
 
 
 
  <./img/zdroje_E.JPG>]
-<img/generatory_E.JPG, id=196, 331.2375pt x 261.3765pt>
+<img/generatory_E.JPG, id=311, 331.2375pt x 261.3765pt>
 File: img/generatory_E.JPG Graphic file (type jpg)
 <use img/generatory_E.JPG>
 Package pdftex.def Info: img/generatory_E.JPG  used on input line 45.
 (pdftex.def)             Requested size: 182.09485pt x 143.6897pt.
- [46 <./img/generatory_E.JPG>]
-<img/saturovana_aktivita.JPG, id=200, 455.301pt x 255.354pt>
+ [71 <./img/generatory_E.JPG>]
+<img/saturovana_aktivita.JPG, id=315, 455.301pt x 255.354pt>
 File: img/saturovana_aktivita.JPG Graphic file (type jpg)
 <use img/saturovana_aktivita.JPG>
 Package pdftex.def Info: img/saturovana_aktivita.JPG  used on input line 85.
 (pdftex.def)             Requested size: 273.14922pt x 153.198pt.
- [47 <./img/saturovana_aktivita.JPG>]
-<img/RR_vyznam.JPG, id=204, 660.66824pt x 196.3335pt>
+ [72 <./img/saturovana_aktivita.JPG>]
+<img/RR_vyznam.JPG, id=319, 660.66824pt x 196.3335pt>
 File: img/RR_vyznam.JPG Graphic file (type jpg)
 <use img/RR_vyznam.JPG>
 Package pdftex.def Info: img/RR_vyznam.JPG  used on input line 94.
 (pdftex.def)             Requested size: 364.19664pt x 108.2294pt.
- [48 <./img/RR_vyznam.JPG>]) [49]
+ [73 <./img/RR_vyznam.JPG>]) [74]
 \openout2 = `kapitoly/chapter_11.aux'.
 
  (./kapitoly/chapter_11.tex
@@ -1039,73 +1241,228 @@ Overfull \hbox (20.35785pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10.95 Neutronov^^Sa ak-tiva^^Tcn^^S^^P anal^^Syza \OT1/cmr/m/n/10.95 je ra-dio-an-a-lyt-ick^^Sa metoda zalo^^Tzen^^Sa na jadern^^Se ak-ti-vaci chemick^^Sych
  []
 
-<img/prvky_NAA.JPG, id=213, 554.07pt x 382.42876pt>
+<img/prvky_NAA.JPG, id=327, 554.07pt x 382.42876pt>
 File: img/prvky_NAA.JPG Graphic file (type jpg)
 <use img/prvky_NAA.JPG>
 Package pdftex.def Info: img/prvky_NAA.JPG  used on input line 9.
 (pdftex.def)             Requested size: 295.90587pt x 204.23848pt.
-[50
+[75
 
 
 
- <./img/prvky_NAA.JPG>] [51] [52]) [53]
+ <./img/prvky_NAA.JPG>] [76] [77]) [78]
 \openout2 = `kapitoly/chapter_12.aux'.
 
  (./kapitoly/chapter_12.tex
-<img/p+Li_E.JPG, id=226, 311.9655pt x 199.34476pt>
+<img/p+Li_E.JPG, id=340, 311.9655pt x 199.34476pt>
 File: img/p+Li_E.JPG Graphic file (type jpg)
 <use img/p+Li_E.JPG>
 Package pdftex.def Info: img/p+Li_E.JPG  used on input line 27.
 (pdftex.def)             Requested size: 227.62204pt x 145.45352pt.
- [54
+ [79
 
 
 
  <./img/p+Li_E.JPG>]
-<img/spektrum_aktivacne.JPG, id=230, 345.6915pt x 278.2395pt>
+<img/spektrum_aktivacne.JPG, id=345, 345.6915pt x 278.2395pt>
 File: img/spektrum_aktivacne.JPG Graphic file (type jpg)
 <use img/spektrum_aktivacne.JPG>
 Package pdftex.def Info: img/spektrum_aktivacne.JPG  used on input line 41.
 (pdftex.def)             Requested size: 227.62204pt x 183.20558pt.
-) [55 <./img/spektrum_aktivacne.JPG>]
+ [80 <./img/spektrum_aktivacne.JPG>])
+Overfull \hbox (9.79706pt too wide) in paragraph at lines 93--98
+[]\OT1/cmr/m/n/10.95 Stanoven^^S^^P ^^Tst^^Tepn^^Sych v^^Syt^^Te^^Tzk^^Wu po-moc^^S^^P ak-tiva^^Tcn^^S^^P metody je ^^Su^^Tcinn^^Sym n^^Sastrojem pro studium jadern^^Sych
+ []
+
+[81] [82]
 \openout2 = `kapitoly/chapter_13.aux'.
 
- (./kapitoly/chapter_13.tex) [56
+ (./kapitoly/chapter_13.tex [83
 
 
 
 ]
+Overfull \hbox (6.31271pt too wide) in paragraph at lines 56--57
+[]\OT1/cmr/bx/n/10.95 Cyklick^^Sa in-stru-ment^^Saln^^S^^P NAA (CINAA)\OT1/cmr/m/n/10.95 : Pou^^Tz^^S^^Pv^^Sa opako-van^^Se cykly oza^^Trov^^San^^S^^P a m^^Te^^Tren^^S^^P. 
+ []
+
+
+Overfull \hbox (3.44475pt too wide) in paragraph at lines 59--60
+[]\OT1/cmr/bx/n/10.95 P^^Tredkoncentra^^Tcn^^S^^P NAA (PNAA)\OT1/cmr/m/n/10.95 : P^^Tred anal^^Syzou je prov^^Sad^^Tena p^^Tredkoncentrace vzorku. 
+ []
+
+[84]
+<img/CestaRadioizotopu.png, id=361, 796.1745pt x 290.2845pt>
+File: img/CestaRadioizotopu.png Graphic file (type png)
+<use img/CestaRadioizotopu.png>
+Package pdftex.def Info: img/CestaRadioizotopu.png  used on input line 95.
+(pdftex.def)             Requested size: 318.66946pt x 116.18703pt.
+ [85 <./img/CestaRadioizotopu.png>]
+Overfull \hbox (3.58185pt too wide) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/10.95 Oz^^Sa^^Tren^^S^^P m^^Wu^^Tze b^^Syt prove-deno rychl^^Symi neu-trony nebo vysokoen-er-get-ick^^Sym gama z^^Sa^^Tren^^S^^Pm. N^^Sadoby
+ []
+
+<img/SestavanaNZ.png, id=367, 621.32124pt x 204.765pt>
+File: img/SestavanaNZ.png Graphic file (type png)
+<use img/SestavanaNZ.png>
+Package pdftex.def Info: img/SestavanaNZ.png  used on input line 137.
+(pdftex.def)             Requested size: 318.66946pt x 105.0224pt.
+
+Overfull \hbox (4.04825pt too wide) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10.95 Z^^Sakladn^^S^^P prin-cip: In-ten-zita pa-prsku je po pr^^Wuchodu zo-bra-zo-van^^Sym ob-jek-tem ut-lu-mena v z^^Savislosti
+ []
+
+
+Overfull \hbox (25.57315pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10.95 na tlou^^Ts[]tce a ma-teri^^Salu ob-jektu. []Utlum je d^^San ma-teri^^Salov^^Sym slo^^Tzen^^S^^Pm vzorku -- m^^S^^Pra pravd^^Tepodobnosti
+ []
+
+[86 <./img/SestavanaNZ.png (PNG copy)>]
+<img/Zobrazování.png, id=371, 665.8476pt x 294.3798pt>
+File: img/Zobrazování.png Graphic file (type png)
+<use img/Zobrazování.png>
+Package pdftex.def Info: img/Zobrazování.png  used on input line 157.
+(pdftex.def)             Requested size: 318.66946pt x 140.88744pt.
+<img/RozlišeníPodleLD.png, id=372, 648.021pt x 268.6035pt>
+File: img/RozlišeníPodleLD.png Graphic file (type png)
+<use img/RozlišeníPodleLD.png>
+Package pdftex.def Info: img/RozlišeníPodleLD.png  used on input line 164.
+(pdftex.def)             Requested size: 227.62204pt x 94.34871pt.
+<img/Braggův zákon.png, id=373, 322.20375pt x 212.59425pt>
+File: img/Braggův zákon.png Graphic file (type png)
+<use img/Braggův zákon.png>
+Package pdftex.def Info: img/Braggův zákon.png  used on input line 177.
+(pdftex.def)             Requested size: 227.62204pt x 150.19362pt.
+ [87 <./img/RozlišeníPodleLD.png> <./img/Zobrazování.png>]
+<img/OPALScattering.png, id=379, 799.18575pt x 352.31625pt>
+File: img/OPALScattering.png Graphic file (type png)
+<use img/OPALScattering.png>
+Package pdftex.def Info: img/OPALScattering.png  used on input line 188.
+(pdftex.def)             Requested size: 341.43306pt x 150.51999pt.
+ [88 <./img/Braggův zákon.png> <./img/OPALScattering.png>]) [89]
 \openout2 = `kapitoly/chapter_14.aux'.
 
- (./kapitoly/chapter_14.tex) [57
+ (./kapitoly/chapter_14.tex
+Overfull \hbox (8.48909pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10.95 ra-dionuk-lid^^Wu, neu-tronov^^Se ra-dio-grafie, zkou^^Tsen^^S^^P ma-teri^^Sal^^Wu nebo posky-tov^^San^^S^^P zdravotn^^S^^Pch
+ []
+
+<img/DELPHY_SA.png, id=388, 761.84625pt x 384.2355pt>
+File: img/DELPHY_SA.png Graphic file (type png)
+<use img/DELPHY_SA.png>
+Package pdftex.def Info: img/DELPHY_SA.png  used on input line 33.
+(pdftex.def)             Requested size: 341.43306pt x 172.20082pt.
+<img/YALINA.png, id=389, 689.57625pt x 292.09125pt>
+File: img/YALINA.png Graphic file (type png)
+<use img/YALINA.png>
+Package pdftex.def Info: img/YALINA.png  used on input line 40.
+(pdftex.def)             Requested size: 341.43306pt x 144.62349pt.
+[90
+
+
+
+ <./img/DELPHY_SA.png>]
+Overfull \hbox (2.1916pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/10.95 TRIGA, navr^^Tzeno Gen-eral Atom-ics (USA): t^^Tri mod-ely -- Mark I (bez hor-i-zont^^Saln^^S^^Pch svazk^^Wu),
+ []
+
+<img/LR0.png, id=394, 759.43726pt x 340.8735pt>
+File: img/LR0.png Graphic file (type png)
+<use img/LR0.png>
+Package pdftex.def Info: img/LR0.png  used on input line 60.
+(pdftex.def)             Requested size: 341.43306pt x 153.25641pt.
+[91 <./img/YALINA.png> <./img/LR0.png>]
+<img/LVR15.png, id=401, 752.8125pt x 380.622pt>
+File: img/LVR15.png Graphic file (type png)
+<use img/LVR15.png>
+Package pdftex.def Info: img/LVR15.png  used on input line 87.
+(pdftex.def)             Requested size: 341.43306pt x 172.63153pt.
+<img/RozděleníRR.png, id=402, 797.98125pt x 328.22626pt>
+File: img/RozděleníRR.png Graphic file (type png)
+<use img/RozděleníRR.png>
+Package pdftex.def Info: img/RozděleníRR.png  used on input line 94.
+(pdftex.def)             Requested size: 341.43306pt x 140.43837pt.
+ [92 <./img/LVR15.png> <./img/RozděleníRR.png>]
+<img/PalivaVýzkumnýchReaktorů.png, id=408, 810.02625pt x 383.63326pt>
+File: img/PalivaVýzkumnýchReaktorů.png Graphic file (type png)
+<use img/PalivaVýzkumnýchReaktorů.png>
+Package pdftex.def Info: img/PalivaVýzkumnýchReaktorů.png  used on input line 115.
+(pdftex.def)             Requested size: 341.43306pt x 161.70438pt.
+ [93 <./img/PalivaVýzkumnýchReaktorů.png>]
+<img/KonfiguraceAZ.png, id=413, 835.32076pt x 354.123pt>
+File: img/KonfiguraceAZ.png Graphic file (type png)
+<use img/KonfiguraceAZ.png>
+Package pdftex.def Info: img/KonfiguraceAZ.png  used on input line 147.
+(pdftex.def)             Requested size: 341.43306pt x 144.74287pt.
+ [94 <./img/KonfiguraceAZ.png>]
+Overfull \hbox (8.63104pt too wide) in paragraph at lines 185--186
+[]\OT1/cmr/m/n/10.95 V^^Syzkumn^^Se reak-tory jsou ob-vykle velmi odoln^^Se v^^Wu^^Tci ra-di-o-log-ick^^Se sabot^^Sa^^Tzi. Riziko kr^^Sade^^Tze jadern^^Seho
+ []
+
+
+Overfull \hbox (8.3675pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/m/n/10.95 V^^Syzkumn^^Se reak-tory jsou citliv^^Tej^^Ts^^S^^P z hlediska kriti^^Tcnosti hav^^Sari^^S^^P kv^^Wuli zpo^^Tzd^^Ten^^S^^P neg-a-tivn^^S^^Pch zp^^Tetn^^Sych
+ []
+
+<img/AgeOfRR.png, id=418, 819.66225pt x 332.442pt>
+File: img/AgeOfRR.png Graphic file (type png)
+<use img/AgeOfRR.png>
+Package pdftex.def Info: img/AgeOfRR.png  used on input line 195.
+(pdftex.def)             Requested size: 341.43306pt x 138.47826pt.
+[95 <./img/AgeOfRR.png>]) [96]
+\openout2 = `kapitoly/chapter_15.aux'.
+
+ (./kapitoly/chapter_15.tex [97
 
 
 
 ]
-\openout2 = `kapitoly/chapter_15.aux'.
+Overfull \hbox (1.00662pt too wide) in paragraph at lines 55--56
+\OT1/cmr/m/n/10.95 Bezpe^^Tcnost reak-toru je velmi slo^^Tzit^^Sy ^^Sukol, kter^^Sy by m^^Tel b^^Syt ^^Tre^^Tsen prost^^Trednictv^^S^^Pm ^^Suzk^^Se spolupr^^Sace
+ []
 
- (./kapitoly/chapter_15.tex) [58
+<img/DID.png, id=430, 503.481pt x 225.4824pt>
+File: img/DID.png Graphic file (type png)
+<use img/DID.png>
+Package pdftex.def Info: img/DID.png  used on input line 68.
+(pdftex.def)             Requested size: 341.43306pt x 152.90968pt.
+[98 <./img/DID.png>]
+Overfull \hbox (6.75528pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10.95 Omezen^^S^^P zk-ouman^^Seho parametru jsou d^^Sale defi-nov^^Sana v^^Tcetn^^Te bezpe^^Tcnostn^^S^^Pch rez-erv, kter^^Se zaji^^Ts[]tuj^^S^^P
+ []
 
+[99] [100]
+Overfull \hbox (35.34595pt too wide) in paragraph at lines 160--161
+[]\OT1/cmr/m/n/10.95 Bezpe^^Tcnostn^^S^^P zpr^^Sava pro v^^Syzkumn^^Se reak-tory (Safety anal-y-sis re-port (SAR)) m^^Sa struk-turu p^^Trizp^^Wusobenou
+ []
 
+[101]
+<img/PS_RA2.png, id=446, 455.301pt x 219.219pt>
+File: img/PS_RA2.png Graphic file (type png)
+<use img/PS_RA2.png>
+Package pdftex.def Info: img/PS_RA2.png  used on input line 218.
+(pdftex.def)             Requested size: 341.43306pt x 164.3971pt.
+ [102 <./img/PS_RA2.png>]) [103] (./main.aux (./none.aux) (./kapitoly/chapter_01.aux) (./kapitoly/chapter_02.aux) (./kapitoly/chapter_03.aux) (./kapitoly/chapter_04.aux) (./kapitoly/chapter_05.aux) (./kapitoly/chapter_06.aux) (./kapitoly/chapter_07.aux) (./kapitoly/chapter_08.aux) (./kapitoly/chapter_09.aux) (./kapitoly/chapter_10.aux) (./kapitoly/chapter_11.aux) (./kapitoly/chapter_12.aux) (./kapitoly/chapter_13.aux) (./kapitoly/chapter_14.aux) (./kapitoly/chapter_15.aux))
 
-] (./main.aux (./none.aux) (./kapitoly/chapter_01.aux) (./kapitoly/chapter_02.aux) (./kapitoly/chapter_03.aux) (./kapitoly/chapter_04.aux) (./kapitoly/chapter_05.aux) (./kapitoly/chapter_06.aux) (./kapitoly/chapter_07.aux) (./kapitoly/chapter_08.aux) (./kapitoly/chapter_09.aux) (./kapitoly/chapter_10.aux) (./kapitoly/chapter_11.aux) (./kapitoly/chapter_12.aux) (./kapitoly/chapter_13.aux) (./kapitoly/chapter_14.aux) (./kapitoly/chapter_15.aux))
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30391 strings out of 476091
- 797260 string characters out of 5794082
- 1871330 words of memory out of 5000000
- 50171 multiletter control sequences out of 15000+600000
- 524498 words of font info for 79 fonts, out of 8000000 for 9000
+ 30669 strings out of 476091
+ 803481 string characters out of 5794082
+ 1872330 words of memory out of 5000000
+ 50402 multiletter control sequences out of 15000+600000
+ 531028 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,103p,1260b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (58 pages, 1798062 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (103 pages, 12027718 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 591 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
