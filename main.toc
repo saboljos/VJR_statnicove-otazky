@@ -108,7 +108,11 @@
 \contentsline {subsection}{\numberline {13.8}Borová záchytová terapie}{88}{}%
 \contentsline {subsection}{\numberline {13.9}Vzdělávání a školení}{89}{}%
 \contentsline {section}{\numberline {14}Konstrukce a provoz výzkumných reaktorů}{90}{}%
-\contentsline {subsubsection}{\numberline {14.0.1}Situace ve světě ohledně VR}{95}{}%
+\contentsline {subsection}{\numberline {14.1}Paliva výzkumných reaktorů}{92}{}%
+\contentsline {subsection}{\numberline {14.2}Konstrukce výzkumných reaktorů}{93}{}%
+\contentsline {subsection}{\numberline {14.3}Experimentální vybavení}{94}{}%
+\contentsline {subsection}{\numberline {14.4}Provoz výzkumných reaktorů}{94}{}%
+\contentsline {subsection}{\numberline {14.5}Situace ve světě ohledně VR}{95}{}%
 \contentsline {section}{\numberline {15}Bezpečnost výzkumných reaktorů}{97}{}%
 \contentsline {subsection}{\numberline {15.1}Úvod do bezpečnosti jaderných reaktorů (obecně)}{97}{}%
 \contentsline {subsection}{\numberline {15.2}Bezpečnost výzkumných reaktorů}{99}{}%

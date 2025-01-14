@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  12 JAN 2025 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.4.8)  14 JAN 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -788,7 +788,22 @@ Package pdftex.def Info: img/symbol_cvut_konturova_verze_cb.pdf  used on input l
 (pdftex.def)             Requested size: 227.62204pt x 173.3303pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/symbol_cvut_konturova_verze_cb.pdf>] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/symbol_cvut_konturova_verze_cb.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Overfull \hbox (11.24844pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/10.95 Pokud to n^^Tekdo chytr^^Sy chce p^^Trepsat, nalezne na Gitu: \OT1/cmr/m/it/10.95 https://github.com/saboljos/VJR[]statnicove-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[2]
 \openout2 = `none.aux'.
 
 
@@ -818,7 +833,7 @@ Package amsmath Warning: Foreign command \over;
 [6
 
 ] [7]
-<img/RodDropMěření.png, id=46, 760.0395pt x 525.162pt>
+<img/RodDropMěření.png, id=47, 760.0395pt x 525.162pt>
 File: img/RodDropMěření.png Graphic file (type png)
 <use img/RodDropMěření.png>
 Package pdftex.def Info: img/RodDropMěření.png  used on input line 125.
@@ -828,7 +843,7 @@ Overfull \hbox (6.66406pt too wide) in paragraph at lines 142--143
 []\OT1/cmr/m/n/10.95 Abychom mohli vy^^Tre^^Tsit tyto rovnice, je nutn^^Se ap-liko-vat ^^Supravy in-tegr^^Sal^^Wu a z^^Sarove^^Tn ur^^Tcit podm^^S^^Pnky: 
  []
 
-<img/RodDrop.png, id=52, 628.14674pt x 434.22224pt>
+<img/RodDrop.png, id=53, 628.14674pt x 434.22224pt>
 File: img/RodDrop.png Graphic file (type png)
 <use img/RodDrop.png>
 Package pdftex.def Info: img/RodDrop.png  used on input line 163.
@@ -838,19 +853,19 @@ Overfull \hbox (0.67076pt too wide) in paragraph at lines 179--181
 []\OT1/cmr/m/n/10.95 Z rovnic bodov^^Se kinetiky, z^^S^^Psk^^Same ne-ho-mogenn^^S^^P difer-enci^^Saln^^S^^P rovnici druh^^Seho ^^Tr^^Sadu s kon-stantn^^S^^Pmi
  []
 
-<img/NásobeníZdroje.png, id=58, 1003.75pt x 501.875pt>
+<img/NásobeníZdroje.png, id=59, 1003.75pt x 501.875pt>
 File: img/NásobeníZdroje.png Graphic file (type png)
 <use img/NásobeníZdroje.png>
 Package pdftex.def Info: img/NásobeníZdroje.png  used on input line 198.
 (pdftex.def)             Requested size: 401.49289pt x 200.74643pt.
 [10 <./img/NásobeníZdroje.png>]
-<img/KladnáPeriodaKořeny.png, id=63, 504.08325pt x 334.24875pt>
+<img/KladnáPeriodaKořeny.png, id=64, 504.08325pt x 334.24875pt>
 File: img/KladnáPeriodaKořeny.png Graphic file (type png)
 <use img/KladnáPeriodaKořeny.png>
 Package pdftex.def Info: img/KladnáPeriodaKořeny.png  used on input line 217.
 (pdftex.def)             Requested size: 352.85587pt x 233.97252pt.
  [11 <./img/KladnáPeriodaKořeny.png>] Excluding 'comment' comment. [12] [13]
-<img/CharakteristikaTyče.png, id=75, 608.2725pt x 437.2335pt>
+<img/CharakteristikaTyče.png, id=76, 608.2725pt x 437.2335pt>
 File: img/CharakteristikaTyče.png Graphic file (type png)
 <use img/CharakteristikaTyče.png>
 Package pdftex.def Info: img/CharakteristikaTyče.png  used on input line 374.
@@ -867,7 +882,7 @@ Overfull \hbox (17.82458pt too wide) in paragraph at lines 42--43
 []\OT1/cmr/m/n/10.95 V p^^Tr^^S^^Ppad^^Te popisu ro-zlo^^Tzen^^S^^P hus-toty toku neu-tron^^Wu v AZ s re-flek-torem je nutn^^Se pou^^Tz^^S^^Pt dvouskupinovou
  []
 
-<img/AxiálníRozloženíVýkonu.png, id=87, 618.51076pt x 428.802pt>
+<img/AxiálníRozloženíVýkonu.png, id=88, 618.51076pt x 428.802pt>
 File: img/AxiálníRozloženíVýkonu.png Graphic file (type png)
 <use img/AxiálníRozloženíVýkonu.png>
 Package pdftex.def Info: img/AxiálníRozloženíVýkonu.png  used on input line 46.
@@ -878,7 +893,7 @@ Overfull \hbox (0.26607pt too wide) in paragraph at lines 94--95
  []
 
 [19]
-<img/SpektrumNeutronů.png, id=99, 622.12425pt x 431.81325pt>
+<img/SpektrumNeutronů.png, id=100, 622.12425pt x 431.81325pt>
 File: img/SpektrumNeutronů.png Graphic file (type png)
 <use img/SpektrumNeutronů.png>
 Package pdftex.def Info: img/SpektrumNeutronů.png  used on input line 146.
@@ -891,7 +906,7 @@ Package pdftex.def Info: img/SpektrumNeutronů.png  used on input line 146.
 
 
 ] [23]
-<img/KritickýExperiment.png, id=113, 502.87875pt x 344.487pt>
+<img/KritickýExperiment.png, id=114, 502.87875pt x 344.487pt>
 File: img/KritickýExperiment.png Graphic file (type png)
 <use img/KritickýExperiment.png>
 Package pdftex.def Info: img/KritickýExperiment.png  used on input line 75.
@@ -960,13 +975,13 @@ Overfull \hbox (0.58083pt too wide) in paragraph at lines 161--162
 \OT1/cmr/m/n/10.95 v^^Syznamnou roli v p^^Tr^^S^^Ppad^^Te odstaven^^S^^P jadern^^Seho reak-toru, kdy odezn^^S^^P vliv okam^^Tzit^^Sych a kr^^Satkodob^^Te
  []
 
-<img/ZpožděnéNeutrony.png, id=153, 829.9005pt x 506.49225pt>
+<img/ZpožděnéNeutrony.png, id=154, 829.9005pt x 506.49225pt>
 File: img/ZpožděnéNeutrony.png Graphic file (type png)
 <use img/ZpožděnéNeutrony.png>
 Package pdftex.def Info: img/ZpožděnéNeutrony.png  used on input line 165.
 (pdftex.def)             Requested size: 364.19664pt x 222.26991pt.
 [33 <./img/ZpožděnéNeutrony.png>] [34] [35]
-<img/ZpožděnéNautrony2.png, id=167, 507.0945pt x 349.90726pt>
+<img/ZpožděnéNautrony2.png, id=168, 507.0945pt x 349.90726pt>
 File: img/ZpožděnéNautrony2.png Graphic file (type png)
 <use img/ZpožděnéNautrony2.png>
 Package pdftex.def Info: img/ZpožděnéNautrony2.png  used on input line 266.
@@ -977,7 +992,7 @@ Overfull \hbox (9.97943pt too wide) in paragraph at lines 275--276
  []
 
 [36 <./img/ZpožděnéNautrony2.png>]
-<img/ZpožděnéNeutrony3.png, id=172, 693.18974pt x 483.60675pt>
+<img/ZpožděnéNeutrony3.png, id=173, 693.18974pt x 483.60675pt>
 File: img/ZpožděnéNeutrony3.png Graphic file (type png)
 <use img/ZpožděnéNeutrony3.png>
 Package pdftex.def Info: img/ZpožděnéNeutrony3.png  used on input line 301.
@@ -990,7 +1005,7 @@ Package pdftex.def Info: img/ZpožděnéNeutrony3.png  used on input line 301.
 
 
 ] [40] [41]
-<img/KlasifikacePlynovýchDetektorů.png, id=190, 310.15875pt x 263.7855pt>
+<img/KlasifikacePlynovýchDetektorů.png, id=191, 310.15875pt x 263.7855pt>
 File: img/KlasifikacePlynovýchDetektorů.png Graphic file (type png)
 <use img/KlasifikacePlynovýchDetektorů.png>
 Package pdftex.def Info: img/KlasifikacePlynovýchDetektorů.png  used on input line 150.
@@ -1000,7 +1015,7 @@ Overfull \hbox (5.81238pt too wide) in paragraph at lines 184--185
 []\OT1/cmr/m/n/10.95 Foton^^Sasobi^^Tc, kter^^Sy je ^^Tcasto sou^^Tc^^Sast^^S^^P scin-tila^^Tcn^^S^^Pho de-tek-toru, fun-guje na prin-cipu zes^^S^^Plen^^S^^P sv^^Teteln^^Seho
  []
 
-<img/Scintilátor.png, id=195, 464.937pt x 177.66376pt>
+<img/Scintilátor.png, id=196, 464.937pt x 177.66376pt>
 File: img/Scintilátor.png Graphic file (type png)
 <use img/Scintilátor.png>
 Package pdftex.def Info: img/Scintilátor.png  used on input line 190.
@@ -1011,7 +1026,7 @@ Overfull \hbox (7.33322pt too wide) in paragraph at lines 214--215
  []
 
 [44 <./img/Scintilátor.png>]
-<img/SPD_1.png, id=204, 269.20575pt x 90.93974pt>
+<img/SPD_1.png, id=205, 269.20575pt x 90.93974pt>
 File: img/SPD_1.png Graphic file (type png)
 <use img/SPD_1.png>
 Package pdftex.def Info: img/SPD_1.png  used on input line 222.
@@ -1022,7 +1037,7 @@ Overfull \hbox (21.4466pt too wide) in paragraph at lines 229--230
  []
 
 [45 <./img/SPD_1.png>]
-<img/AktivačníDetektory.png, id=209, 451.6875pt x 191.5155pt>
+<img/AktivačníDetektory.png, id=210, 451.6875pt x 191.5155pt>
 File: img/AktivačníDetektory.png Graphic file (type png)
 <use img/AktivačníDetektory.png>
 Package pdftex.def Info: img/AktivačníDetektory.png  used on input line 264.
@@ -1032,7 +1047,7 @@ Package pdftex.def Info: img/AktivačníDetektory.png  used on input line 264.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [47]
-<img/KompenzovanáKomora.png, id=217, 380.622pt x 145.14224pt>
+<img/KompenzovanáKomora.png, id=218, 380.622pt x 145.14224pt>
 File: img/KompenzovanáKomora.png Graphic file (type png)
 <use img/KompenzovanáKomora.png>
 Package pdftex.def Info: img/KompenzovanáKomora.png  used on input line 357.
@@ -1050,7 +1065,7 @@ Overfull \hbox (14.87662pt too wide) in paragraph at lines 4--5
 []\OT1/cmr/m/n/10.95 Zdroje neu-tron^^Wu jsou v^^Syznamn^^Sym n^^Sastrojem ve v^^Tedeck^^Sych, v^^Syzkumn^^Sych, l^^Seka^^Trsk^^Sych, ale i p^^Tr^^S^^Prodn^^S^^Pch
  []
 
-<img/generator.png, id=227, 670.30424pt x 344.487pt>
+<img/generator.png, id=228, 670.30424pt x 344.487pt>
 File: img/generator.png Graphic file (type png)
 <use img/generator.png>
 Package pdftex.def Info: img/generator.png  used on input line 38.
@@ -1060,7 +1075,7 @@ Package pdftex.def Info: img/generator.png  used on input line 38.
 
 
 ]
-<img/SpektrumNeutronůZFůzníhoGenerátoru.jpg, id=231, 252.945pt x 200.75pt>
+<img/SpektrumNeutronůZFůzníhoGenerátoru.jpg, id=232, 252.945pt x 200.75pt>
 File: img/SpektrumNeutronůZFůzníhoGenerátoru.jpg Graphic file (type jpg)
 <use img/SpektrumNeutronůZFůzníhoGenerátoru.jpg>
 Package pdftex.def Info: img/SpektrumNeutronůZFůzníhoGenerátoru.jpg  used on input line 45.
@@ -1082,7 +1097,7 @@ Overfull \hbox (19.08537pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 Spektrometrie neu-tron^^Wu po-moc^^S^^P Bon-nerov^^Sych sf^^Ser a scin-tila^^Tcn^^S^^Pch
  []
 
-<img/BonorovySféry.png, id=242, 313.77225pt x 192.72pt>
+<img/BonorovySféry.png, id=243, 313.77225pt x 192.72pt>
 File: img/BonorovySféry.png Graphic file (type png)
 <use img/BonorovySféry.png>
 Package pdftex.def Info: img/BonorovySféry.png  used on input line 27.
@@ -1112,7 +1127,7 @@ Overfull \hbox (3.6528pt too wide) in paragraph at lines 115--116
  []
 
 )
-Overfull \hbox (6.63602pt too wide) in paragraph at lines 135--94
+Overfull \hbox (6.63602pt too wide) in paragraph at lines 135--108
 \OT1/cmr/m/n/10.95 vysky-tuje. Tvarov^^Sa diskrim-i-nace im-puls^^Wu (elek-tronov^^Se im-pulsy od $\OML/cmm/b/it/10.95 ^^M$\OT1/cmr/m/n/10.95 -z^^Sa^^Tren^^S^^P maj^^S^^P rychlou n^^Sab^^Te^^Tznou
  []
 
@@ -1270,7 +1285,7 @@ File: img/spektrum_aktivacne.JPG Graphic file (type jpg)
 Package pdftex.def Info: img/spektrum_aktivacne.JPG  used on input line 41.
 (pdftex.def)             Requested size: 227.62204pt x 183.20558pt.
  [80 <./img/spektrum_aktivacne.JPG>])
-Overfull \hbox (9.79706pt too wide) in paragraph at lines 93--98
+Overfull \hbox (9.79706pt too wide) in paragraph at lines 93--112
 []\OT1/cmr/m/n/10.95 Stanoven^^S^^P ^^Tst^^Tepn^^Sych v^^Syt^^Te^^Tzk^^Wu po-moc^^S^^P ak-tiva^^Tcn^^S^^P metody je ^^Su^^Tcinn^^Sym n^^Sastrojem pro studium jadern^^Sych
  []
 
@@ -1451,15 +1466,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30669 strings out of 476091
- 803481 string characters out of 5794082
+ 30673 strings out of 476091
+ 803530 string characters out of 5794082
  1872330 words of memory out of 5000000
- 50402 multiletter control sequences out of 15000+600000
+ 50406 multiletter control sequences out of 15000+600000
  531028 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,103p,1260b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main.pdf (103 pages, 12027718 bytes).
+Output written on main.pdf (103 pages, 12029685 bytes).
 PDF statistics:
  591 PDF objects out of 1000 (max. 8388607)
  332 compressed objects within 4 object streams
